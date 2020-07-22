@@ -37,11 +37,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51755965"
-     inkscape:cx="480.37592"
-     inkscape:cy="501.44626"
+     inkscape:zoom="1.0351193"
+     inkscape:cx="224.99491"
+     inkscape:cy="227.94546"
      inkscape:document-units="px"
-     inkscape:current-layer="g4016"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="true"
      units="px"
@@ -61,9 +61,9 @@
      inkscape:snap-page="true"
      inkscape:snap-grids="false"
      inkscape:window-width="1916"
-     inkscape:window-height="897"
+     inkscape:window-height="997"
      inkscape:window-x="0"
-     inkscape:window-y="181"
+     inkscape:window-y="1281"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -118,7 +118,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -127,34 +127,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline">
-    <g
-       transform="translate(-33.461897)"
-       id="g4016">
-      <path
-         style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 58.461897,175 H 308.4619"
-         id="path2853"
-         sodipodi:nodetypes="cc" />
-      <path
-         sodipodi:nodetypes="cc"
-         id="path3383"
-         d="M 183.4619,50 V 300"
-         style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
+    <path
+       d="M 167.7168 25 A 25 25 0 0 0 142.7168 50 L 142.7168 165.65039 L 32.726562 129.91211 A 25 25 0 0 0 24.867188 128.68945 A 25 25 0 0 0 1.2246094 145.96289 A 25 25 0 0 0 17.275391 177.46484 L 127.26758 213.20312 L 59.289062 306.76562 A 25 25 0 0 0 64.820312 341.68555 A 25 25 0 0 0 99.740234 336.15625 L 167.71875 242.5918 L 235.69531 336.15625 A 25 25 0 0 0 270.61523 341.68555 A 25 25 0 0 0 276.14648 306.76562 L 208.16797 213.20312 L 318.1582 177.46484 A 25 25 0 0 0 334.20898 145.96289 A 25 25 0 0 0 310.31445 128.68945 A 25 25 0 0 0 302.70703 129.91211 L 192.7168 165.65039 L 192.7168 50 A 25 25 0 0 0 167.7168 25 z "
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+       id="path856" />
     <g
        style="filter:url(#filter4042)"
        id="g4022"
-       transform="rotate(45,166.73095,134.60792)">
-      <path
-         sodipodi:nodetypes="cc"
-         id="path4018"
-         d="M 58.461897,175 H 308.4619"
-         style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 183.4619,50 V 300"
-         id="path4020"
-         sodipodi:nodetypes="cc" />
-    </g>
+       transform="rotate(45,166.73095,134.60792)" />
   </g>
 </svg>

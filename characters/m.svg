@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51755965"
-     inkscape:cx="15.56896"
-     inkscape:cy="535.8849"
+     inkscape:zoom="1.0351193"
+     inkscape:cx="443.89205"
+     inkscape:cy="420.44599"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -49,7 +49,7 @@
      inkscape:window-width="1916"
      inkscape:window-height="997"
      inkscape:window-x="0"
-     inkscape:window-y="81"
+     inkscape:window-y="1281"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -104,7 +104,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -114,27 +114,8 @@
      id="layer1"
      style="display:inline">
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 25,325 V 675"
-       id="path21635"
-       sodipodi:nodetypes="cc" />
-    <path
-       id="path17086"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       d="M 25.000001,500 A 150.00001,175 0 0 1 175.00001,325 150.00001,175 0 0 1 324.99999,500" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 324.99999,500 V 675"
-       id="path21681"
-       sodipodi:nodetypes="cc" />
-    <path
-       d="M 324.99999,500 A 150.00001,175 0 0 1 475,325 150.00001,175 0 0 1 625.00001,500"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       id="path24903" />
-    <path
-       sodipodi:nodetypes="cc"
-       id="path24905"
-       d="M 625.00001,500 V 675"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       d="M 25 300 C 11.192881 300 0 311.19288 0 325 L 0 500 L 0 675 C 0 688.80712 11.192881 700 25 700 C 38.807119 700 50 688.80712 50 675 L 50 500.16797 C 50.000188 500.11197 50.000188 500.05599 50 500 C 50 414.93103 107.92012 350 175 350 C 242.07987 350.00002 300 414.93104 300 500 L 300 675 C 300 688.80712 311.19288 700 325 700 C 338.80712 700 350 688.80712 350 675 L 350 500.16797 C 350.00019 500.11197 350.00019 500.05599 350 500 C 350 414.93103 407.92012 350 475 350 C 542.07988 350 600 414.93103 600 500 L 600 675 C 600 688.80712 611.19288 700 625 700 C 638.80712 700 650 688.80712 650 675 L 650 500.16797 C 650.00019 500.11197 650.00019 500.05599 650 500 C 650 499.85968 649.99609 499.72035 649.99609 499.58008 C 649.99547 499.55798 649.99514 499.53577 649.99414 499.51367 C 649.76532 391.49502 573.45748 300 475 300 C 410.45742 300 357.84319 339.09389 325 397.06055 C 294.25999 339.72231 234.55763 300 175 300 C 125.42029 300 81.461357 323.20659 50 360.03516 L 50 325 C 50 311.19288 38.807119 300 25 300 z "
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       id="path860" />
   </g>
 </svg>

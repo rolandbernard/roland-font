@@ -7,91 +7,91 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1000"
-   height="1000"
-   viewBox="0 0 1000 1000"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="&amp;.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="&amp;.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 1000 1000"
+   height="1000"
+   width="1000">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2.9277595"
-     inkscape:cx="226.51891"
-     inkscape:cy="452.17253"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="true"
-     units="px"
-     inkscape:pagecheckerboard="true"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-bbox-midpoints="true"
-     inkscape:object-paths="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:snap-smooth-nodes="true"
-     inkscape:snap-midpoints="true"
-     inkscape:snap-object-midpoints="true"
-     inkscape:snap-center="true"
-     inkscape:snap-text-baseline="true"
-     inkscape:snap-page="true"
-     inkscape:snap-grids="false"
-     inkscape:window-width="1916"
-     inkscape:window-height="917"
-     inkscape:window-x="0"
-     inkscape:window-y="161"
-     inkscape:window-maximized="1"
+     inkscape:guide-bbox="true"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:window-maximized="1"
+     inkscape:window-y="1281"
+     inkscape:window-x="0"
+     inkscape:window-height="997"
+     inkscape:window-width="1916"
+     inkscape:snap-grids="false"
+     inkscape:snap-page="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:pagecheckerboard="true"
+     units="px"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="346.39091"
+     inkscape:cx="372.44102"
+     inkscape:zoom="1.0351193"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
     <inkscape:grid
-       type="xygrid"
-       id="grid883" />
+       id="grid883"
+       type="xygrid" />
     <sodipodi:guide
-       position="0,300"
-       orientation="0,1"
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
        id="guide885"
-       inkscape:label=""
-       inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
-    <sodipodi:guide
-       position="0,975"
        orientation="0,1"
+       position="0,300" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
        id="guide889"
-       inkscape:label=""
-       inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
-    <sodipodi:guide
-       position="0,1000"
        orientation="0,1"
+       position="0,975" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
        id="guide891"
-       inkscape:label=""
-       inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
-    <sodipodi:guide
-       position="0,0"
        orientation="0,1"
-       id="guide893"
-       inkscape:label=""
+       position="0,1000" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
        inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
+       inkscape:label=""
+       id="guide893"
+       orientation="0,1"
+       position="0,0" />
     <sodipodi:guide
-       position="120,600"
+       id="guide921"
        orientation="0,-1"
-       id="guide921" />
+       position="120,600" />
     <sodipodi:guide
-       id="guide2132"
+       position="516.11879,543.87629"
        orientation="1,0"
-       position="516.11879,543.87629" />
+       id="guide2132" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -101,51 +101,22 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     style="display:inline"
      id="layer1"
-     style="display:inline">
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
     <path
-       d="M 323.74395 376.25658 A 175 175 0 0 1 323.74395 376.25658 "
+       id="path2113"
        style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       id="path2113" />
+       d="M 323.74395 376.25658 A 175 175 0 0 1 323.74395 376.25658 " />
     <path
-       d="M 76.25658,376.25605 A 175,175 0 0 1 200,325 a 175,175 0 0 1 0.002,0"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       id="path2141" />
-    <path
-       d="M 323.74342 623.74395 A 175 175 0 0 1 200 675 A 175 175 0 0 1 25 500 A 175 175 0 0 1 76.25658 376.25605 "
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       id="path2117" />
-    <path
-       id="path2124"
-       d="M 323.74342,623.74395 491.11879,456.36858"
-       style="fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
-    <path
-       id="path2130"
-       d="M 291.50069,452.10308 124.12531,284.72772"
-       style="fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       sodipodi:nodetypes="cc"
-       id="path2146"
-       d="m 202.41944,325 h 18.93314"
-       style="fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       d="m 83.852265,187.50032 a 137.5,137.5 0 0 1 40.272815,-97.227489 137.5,137.5 0 0 1 194.45436,-10e-7 137.5,137.5 0 0 1 0,194.45436 v 0 A 137.5,137.5 0 0 1 221.35258,325"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="path2150" />
-    <path
-       d="M 124.12531,284.72772 A 137.5,137.5 0 0 1 83.852265,187.50032"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="path2162" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 458.87607,619.47844 291.50069,452.10308"
-       id="path2165" />
+       d="M 221.35156 25.15625 C 179.71184 25.15625 138.07267 40.970299 106.44727 72.595703 C 76.118077 102.92487 59.014532 144.03615 58.859375 186.91211 C 58.859292 186.93493 58.857495 186.95765 58.857422 186.98047 A 25 25 0 0 0 58.851562 187.5 A 25 25 0 0 0 58.859375 188.04883 C 59.003666 230.73293 75.949378 271.66929 106.01562 301.96484 A 25 25 0 0 0 106.03516 301.98438 A 25 25 0 0 0 106.44727 302.40625 L 120.52734 316.48633 C 97.813321 326.32438 76.904248 340.37321 59.017578 358.15039 A 25 25 0 0 0 58.578125 358.57812 A 25 25 0 0 0 58.158203 359.00781 C 20.923129 396.46722 1.0309187e-06 447.16669 0 500 C 0 610.16083 89.839166 700 200 700 C 252.82885 700 303.52392 679.07882 340.98242 641.84961 C 340.98842 641.84361 340.9944 641.83948 341 641.83398 A 25 25 0 0 0 341.42188 641.42188 L 393.44336 589.40039 L 441.19922 637.15625 A 25 25 0 0 0 476.55469 637.15625 A 25 25 0 0 0 476.55469 601.80078 L 428.79883 554.04492 L 508.79688 474.04688 A 25 25 0 0 0 508.79688 438.69141 A 25 25 0 0 0 490.99219 431.36914 A 25 25 0 0 0 473.44141 438.69141 L 393.44336 518.68945 L 309.29688 434.54492 A 25 25 0 0 0 309.17773 434.42578 L 224.70898 349.95703 C 266.58258 349.09198 306.58216 332.07994 336.25781 302.4043 C 399.50862 239.15349 399.50862 135.84651 336.25781 72.595703 C 304.63239 40.970269 262.99128 25.15625 221.35156 25.15625 z M 221.35156 74.84375 C 250.09062 74.84375 278.83066 85.879493 300.90234 107.95117 C 345.04571 152.09454 345.04571 222.90546 300.90234 267.04883 C 279.79823 288.15294 251.19918 299.99941 221.35352 300 L 221.35156 300 L 202.41992 300 A 25 25 0 0 0 201.19922 300.0293 A 25 25 0 0 0 200.00195 300 L 200 300 C 191.99883 300 184.0483 300.48787 176.18359 301.43164 L 141.92188 267.16992 A 25 25 0 0 0 141.80273 267.05078 C 120.69799 245.94613 108.85156 217.34655 108.85156 187.5 C 108.8515 157.65345 120.69804 129.05587 141.80273 107.95117 C 163.87442 85.879493 192.6125 74.84375 221.35156 74.84375 z M 159.58789 355.54688 L 273.70312 469.66211 L 273.82227 469.78125 L 358.08789 554.04492 L 306.18555 605.94727 L 306.06641 606.06641 C 277.92918 634.20352 239.79197 650 200 650 C 116.86117 650 50 583.13883 50 500 C 50.000001 460.20781 65.796206 422.07086 93.933594 393.93359 C 112.32299 375.54428 134.98535 362.42902 159.58789 355.54688 z "
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+       id="path876" />
   </g>
 </svg>

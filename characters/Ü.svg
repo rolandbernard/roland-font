@@ -7,94 +7,94 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1000"
-   height="1000"
-   viewBox="0 0 1000 1000"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="Ü.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="Ü.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 1000 1000"
+   height="1000"
+   width="1000">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.0351193"
-     inkscape:cx="369.42291"
-     inkscape:cy="207.77682"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="true"
-     units="px"
-     inkscape:pagecheckerboard="true"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-bbox-midpoints="true"
-     inkscape:object-paths="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:snap-smooth-nodes="true"
-     inkscape:snap-midpoints="true"
-     inkscape:snap-object-midpoints="true"
-     inkscape:snap-center="true"
-     inkscape:snap-text-baseline="true"
-     inkscape:snap-page="true"
-     inkscape:snap-grids="false"
-     inkscape:window-width="1916"
-     inkscape:window-height="957"
-     inkscape:window-x="0"
-     inkscape:window-y="121"
-     inkscape:window-maximized="1"
+     inkscape:guide-bbox="true"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:window-maximized="1"
+     inkscape:window-y="1281"
+     inkscape:window-x="0"
+     inkscape:window-height="997"
+     inkscape:window-width="1916"
+     inkscape:snap-grids="false"
+     inkscape:snap-page="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:pagecheckerboard="true"
+     units="px"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="285.0626"
+     inkscape:cx="369.42291"
+     inkscape:zoom="1.0351193"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
     <inkscape:grid
-       type="xygrid"
-       id="grid883" />
+       id="grid883"
+       type="xygrid" />
     <sodipodi:guide
-       position="0,300"
-       orientation="0,1"
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
        id="guide885"
-       inkscape:label=""
-       inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
-    <sodipodi:guide
-       position="0,700"
        orientation="0,1"
+       position="0,300" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
        id="guide887"
-       inkscape:label=""
-       inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
-    <sodipodi:guide
-       position="0,975"
        orientation="0,1"
+       position="0,700" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
        id="guide889"
-       inkscape:label=""
-       inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
-    <sodipodi:guide
-       position="0,1000"
        orientation="0,1"
+       position="0,975" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
        id="guide891"
-       inkscape:label=""
-       inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
-    <sodipodi:guide
-       position="0,0"
        orientation="0,1"
-       id="guide893"
-       inkscape:label=""
-       inkscape:locked="true"
-       inkscape:color="rgb(0,0,255)" />
+       position="0,1000" />
     <sodipodi:guide
-       position="120,600"
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
+       id="guide893"
+       orientation="0,1"
+       position="0,0" />
+    <sodipodi:guide
+       id="guide921"
        orientation="0,-1"
-       id="guide921" />
+       position="120,600" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -104,40 +104,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     style="display:inline"
      id="layer1"
-     style="display:inline">
-    <circle
-       r="25"
-       cy="25"
-       cx="175"
-       id="path22319"
-       style="display:inline;fill:#010200;fill-opacity:1;stroke:none;stroke-width:50.0001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" />
-    <circle
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       d="M 174.83203 0 A 25 25 0 0 0 150 25 A 25 25 0 0 0 175 50 A 25 25 0 0 0 200 25 A 25 25 0 0 0 175 0 A 25 25 0 0 0 174.83203 0 z M 374.83203 0 A 25 25 0 0 0 350 25 A 25 25 0 0 0 375 50 A 25 25 0 0 0 400 25 A 25 25 0 0 0 375 0 A 25 25 0 0 0 374.83203 0 z M 25 25 A 25 25 0 0 0 0 50 L 0 427.08398 A 25 25 0 0 0 0.0078125 427.64258 C 0.31380112 577.93098 123.71832 700 275 700 C 426.27183 700 549.67018 577.9468 549.99219 427.67188 A 25 25 0 0 0 549.99219 427.61914 A 25 25 0 0 0 550 427.08398 L 550 50 A 25 25 0 0 0 525 25 A 25 25 0 0 0 500 50 L 500 426.91602 L 500 427.08398 C 500 550.38003 399.67278 650 275 650 C 150.32722 650 50 550.38003 50 427.08398 L 50 50 A 25 25 0 0 0 25 25 z "
        style="display:inline;fill:#010200;fill-opacity:1;stroke:none;stroke-width:50.0001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
-       id="circle11823"
-       cx="375"
-       cy="25"
-       r="25" />
-    <path
-       d="m 525,427.08334 v 0 A 250,247.91666 0 0 1 275,675 250,247.91666 0 0 1 25,427.08334"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="path13152" />
-    <path
-       sodipodi:nodetypes="cc"
-       id="path13161"
-       d="M 25,427.08334 V 50"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 525,427.08334 V 50"
-       id="path13172"
-       sodipodi:nodetypes="cc" />
+       id="path22319" />
   </g>
 </svg>

@@ -7,94 +7,94 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="^.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 1000 1000"
+   width="1000"
    height="1000"
-   width="1000">
+   viewBox="0 0 1000 1000"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="^.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:guide-bbox="true"
-     showguides="true"
-     inkscape:window-maximized="1"
-     inkscape:window-y="61"
-     inkscape:window-x="0"
-     inkscape:window-height="1017"
-     inkscape:window-width="1916"
-     inkscape:snap-grids="false"
-     inkscape:snap-page="true"
-     inkscape:snap-text-baseline="true"
-     inkscape:snap-center="true"
-     inkscape:snap-object-midpoints="true"
-     inkscape:snap-midpoints="true"
-     inkscape:snap-smooth-nodes="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:object-paths="true"
-     inkscape:snap-bbox-midpoints="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-nodes="true"
-     inkscape:bbox-paths="true"
-     inkscape:snap-bbox="true"
-     inkscape:pagecheckerboard="true"
-     units="px"
-     showgrid="true"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="px"
-     inkscape:cy="312.71579"
-     inkscape:cx="523.59787"
-     inkscape:zoom="1.0351193"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base">
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0351193"
+     inkscape:cx="523.59787"
+     inkscape:cy="312.71579"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     inkscape:snap-grids="false"
+     inkscape:window-width="1916"
+     inkscape:window-height="997"
+     inkscape:window-x="0"
+     inkscape:window-y="1281"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
     <inkscape:grid
-       id="grid883"
-       type="xygrid" />
+       type="xygrid"
+       id="grid883" />
     <sodipodi:guide
-       inkscape:color="rgb(0,0,255)"
-       inkscape:locked="true"
-       inkscape:label=""
+       position="0,300"
+       orientation="0,1"
        id="guide885"
-       orientation="0,1"
-       position="0,300" />
-    <sodipodi:guide
-       inkscape:color="rgb(0,0,255)"
-       inkscape:locked="true"
        inkscape:label=""
+       inkscape:locked="true"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="0,700"
+       orientation="0,1"
        id="guide887"
-       orientation="0,1"
-       position="0,700" />
-    <sodipodi:guide
-       inkscape:color="rgb(0,0,255)"
-       inkscape:locked="true"
        inkscape:label=""
+       inkscape:locked="true"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="0,975"
+       orientation="0,1"
        id="guide889"
-       orientation="0,1"
-       position="0,975" />
-    <sodipodi:guide
-       inkscape:color="rgb(0,0,255)"
-       inkscape:locked="true"
        inkscape:label=""
+       inkscape:locked="true"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="0,1000"
+       orientation="0,1"
        id="guide891"
-       orientation="0,1"
-       position="0,1000" />
-    <sodipodi:guide
-       inkscape:color="rgb(0,0,255)"
-       inkscape:locked="true"
        inkscape:label=""
-       id="guide893"
-       orientation="0,1"
-       position="0,0" />
+       inkscape:locked="true"
+       inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       id="guide921"
+       position="0,0"
+       orientation="0,1"
+       id="guide893"
+       inkscape:label=""
+       inkscape:locked="true"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="120,600"
        orientation="0,-1"
-       position="120,600" />
+       id="guide921" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -104,24 +104,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     style="display:inline"
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1"
+     style="display:inline">
     <path
-       d="M 25,275 200,50"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path14537"
-       sodipodi:nodetypes="cc" />
-    <path
-       sodipodi:nodetypes="cc"
-       id="path31331"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 375,275 200,50" />
+       d="M 200.03906 25 A 25 25 0 0 0 199.70898 25.001953 A 25 25 0 0 0 199.43945 25.007812 A 25 25 0 0 0 199.19922 25.013672 A 25 25 0 0 0 198.86719 25.025391 A 25 25 0 0 0 198.83594 25.027344 A 25 25 0 0 0 198.55273 25.042969 A 25 25 0 0 0 198.39062 25.052734 A 25 25 0 0 0 198.28906 25.060547 A 25 25 0 0 0 197.93945 25.085938 A 25 25 0 0 0 197.51953 25.123047 A 25 25 0 0 0 197.19141 25.158203 A 25 25 0 0 0 197.18359 25.158203 A 25 25 0 0 0 196.88281 25.195312 A 25 25 0 0 0 196.71094 25.216797 A 25 25 0 0 0 196.63281 25.228516 A 25 25 0 0 0 196.29102 25.275391 A 25 25 0 0 0 196.26953 25.279297 A 25 25 0 0 0 195.94336 25.332031 A 25 25 0 0 0 195.70508 25.373047 A 25 25 0 0 0 195.43945 25.419922 A 25 25 0 0 0 195.0625 25.494141 A 25 25 0 0 0 194.95703 25.515625 A 25 25 0 0 0 194.64258 25.580078 A 25 25 0 0 0 194.49805 25.613281 A 25 25 0 0 0 194.29297 25.660156 A 25 25 0 0 0 194.20508 25.681641 A 25 25 0 0 0 193.88477 25.759766 A 25 25 0 0 0 193.88281 25.759766 A 25 25 0 0 0 193.51953 25.855469 A 25 25 0 0 0 193.46484 25.869141 A 25 25 0 0 0 193.2168 25.9375 A 25 25 0 0 0 192.99219 26.001953 A 25 25 0 0 0 192.97461 26.007812 A 25 25 0 0 0 192.58398 26.125 A 25 25 0 0 0 192.18359 26.253906 A 25 25 0 0 0 191.85156 26.367188 A 25 25 0 0 0 191.67188 26.429688 A 25 25 0 0 0 191.47461 26.498047 A 25 25 0 0 0 191.39062 26.529297 A 25 25 0 0 0 190.99609 26.677734 A 25 25 0 0 0 190.68945 26.798828 A 25 25 0 0 0 190.43164 26.904297 A 25 25 0 0 0 190.23242 26.986328 A 25 25 0 0 0 190.16992 27.013672 A 25 25 0 0 0 189.91406 27.125 A 25 25 0 0 0 189.83203 27.162109 A 25 25 0 0 0 189.44922 27.335938 A 25 25 0 0 0 189.13281 27.484375 A 25 25 0 0 0 188.89844 27.599609 A 25 25 0 0 0 188.71094 27.695312 A 25 25 0 0 0 188.69336 27.703125 A 25 25 0 0 0 188.39844 27.855469 A 25 25 0 0 0 188.12695 28 A 25 25 0 0 0 187.98438 28.076172 A 25 25 0 0 0 187.82422 28.166016 A 25 25 0 0 0 187.60742 28.287109 A 25 25 0 0 0 187.58203 28.302734 A 25 25 0 0 0 187.29688 28.46875 A 25 25 0 0 0 186.99414 28.650391 A 25 25 0 0 0 186.90625 28.703125 A 25 25 0 0 0 186.85938 28.732422 A 25 25 0 0 0 186.58008 28.908203 A 25 25 0 0 0 186.24609 29.125 A 25 25 0 0 0 186.2168 29.142578 A 25 25 0 0 0 185.9375 29.332031 A 25 25 0 0 0 185.85742 29.386719 A 25 25 0 0 0 185.66406 29.519531 A 25 25 0 0 0 185.49609 29.638672 A 25 25 0 0 0 185.28906 29.787109 A 25 25 0 0 0 185.17578 29.869141 A 25 25 0 0 0 184.97656 30.019531 A 25 25 0 0 0 184.85547 30.109375 A 25 25 0 0 0 184.78516 30.164062 A 25 25 0 0 0 184.77734 30.169922 A 25 25 0 0 0 184.65234 30.265625 A 25 25 0 0 0 184.5625 30.335938 A 25 25 0 0 0 184.38672 30.476562 A 25 25 0 0 0 184.30859 30.539062 A 25 25 0 0 0 183.99805 30.792969 A 25 25 0 0 0 183.78125 30.976562 A 25 25 0 0 0 183.59961 31.130859 A 25 25 0 0 0 183.375 31.330078 A 25 25 0 0 0 183.35742 31.345703 A 25 25 0 0 0 183.11914 31.5625 A 25 25 0 0 0 182.94727 31.71875 A 25 25 0 0 0 182.91211 31.753906 A 25 25 0 0 0 182.6582 31.992188 A 25 25 0 0 0 182.49219 32.15625 A 25 25 0 0 0 182.42383 32.222656 A 25 25 0 0 0 182.17578 32.46875 A 25 25 0 0 0 182.12305 32.523438 A 25 25 0 0 0 181.9375 32.714844 A 25 25 0 0 0 181.78711 32.873047 A 25 25 0 0 0 181.74023 32.923828 A 25 25 0 0 0 181.56641 33.113281 A 25 25 0 0 0 181.28516 33.425781 A 25 25 0 0 0 181.10156 33.634766 A 25 25 0 0 0 180.9375 33.826172 A 25 25 0 0 0 180.75 34.050781 A 25 25 0 0 0 180.73438 34.068359 A 25 25 0 0 0 180.5332 34.316406 A 25 25 0 0 0 180.37891 34.507812 A 25 25 0 0 0 180.26562 34.652344 A 25 25 0 0 0 180.21289 34.720703 L 5.265625 259.65234 A 25 25 0 0 0 9.6523438 294.73438 A 25 25 0 0 0 44.734375 290.34766 L 200 90.720703 L 355.26562 290.34766 A 25 25 0 0 0 390.34766 294.73438 A 25 25 0 0 0 394.73438 259.65234 L 219.89062 34.853516 A 25 25 0 0 0 219.76172 34.6875 L 219.73438 34.652344 A 25 25 0 0 0 219.47266 34.322266 A 25 25 0 0 0 219.21094 34.003906 A 25 25 0 0 0 219.20703 33.998047 A 25 25 0 0 0 219.10156 33.871094 A 25 25 0 0 0 219.02734 33.785156 A 25 25 0 0 0 218.85938 33.589844 A 25 25 0 0 0 218.82617 33.550781 A 25 25 0 0 0 218.6582 33.361328 A 25 25 0 0 0 218.54688 33.238281 A 25 25 0 0 0 218.375 33.048828 A 25 25 0 0 0 218.33984 33.011719 A 25 25 0 0 0 218.16016 32.818359 A 25 25 0 0 0 218.08789 32.742188 A 25 25 0 0 0 217.97266 32.623047 A 25 25 0 0 0 217.79492 32.441406 A 25 25 0 0 0 217.67773 32.324219 A 25 25 0 0 0 217.37891 32.029297 A 25 25 0 0 0 217.11914 31.78125 A 25 25 0 0 0 217.07422 31.738281 A 25 25 0 0 0 216.88672 31.566406 A 25 25 0 0 0 216.76367 31.455078 A 25 25 0 0 0 216.57422 31.285156 A 25 25 0 0 0 216.45117 31.175781 A 25 25 0 0 0 216.25781 31.007812 A 25 25 0 0 0 216.13086 30.900391 A 25 25 0 0 0 215.93555 30.738281 A 25 25 0 0 0 215.61523 30.478516 A 25 25 0 0 0 215.60938 30.472656 A 25 25 0 0 0 215.60547 30.46875 A 25 25 0 0 0 215.34766 30.265625 A 25 25 0 0 0 215.29688 30.226562 A 25 25 0 0 0 215.2793 30.212891 A 25 25 0 0 0 215.24414 30.185547 A 25 25 0 0 0 214.94336 29.958984 A 25 25 0 0 0 214.67578 29.759766 A 25 25 0 0 0 214.60547 29.708984 A 25 25 0 0 0 214.33203 29.517578 A 25 25 0 0 0 214.01758 29.300781 A 25 25 0 0 0 213.98633 29.279297 A 25 25 0 0 0 213.91406 29.230469 A 25 25 0 0 0 213.63672 29.046875 A 25 25 0 0 0 213.5625 28.998047 A 25 25 0 0 0 213.28125 28.820312 A 25 25 0 0 0 213.20703 28.773438 A 25 25 0 0 0 212.92383 28.599609 A 25 25 0 0 0 212.84961 28.554688 A 25 25 0 0 0 212.75781 28.5 A 25 25 0 0 0 212.48633 28.341797 A 25 25 0 0 0 212.19727 28.177734 A 25 25 0 0 0 212.12109 28.134766 A 25 25 0 0 0 211.82812 27.974609 A 25 25 0 0 0 211.75195 27.933594 A 25 25 0 0 0 211.45508 27.779297 A 25 25 0 0 0 211.37891 27.740234 A 25 25 0 0 0 211.08008 27.589844 A 25 25 0 0 0 211.00195 27.550781 A 25 25 0 0 0 210.70117 27.40625 A 25 25 0 0 0 210.62305 27.369141 A 25 25 0 0 0 210.32031 27.230469 A 25 25 0 0 0 210.0625 27.115234 A 25 25 0 0 0 209.85547 27.025391 A 25 25 0 0 0 209.46875 26.863281 A 25 25 0 0 0 209.1582 26.738281 A 25 25 0 0 0 209.07812 26.707031 A 25 25 0 0 0 208.76758 26.587891 A 25 25 0 0 0 208.75781 26.583984 A 25 25 0 0 0 208.41211 26.458984 A 25 25 0 0 0 208.37109 26.443359 A 25 25 0 0 0 208.28906 26.414062 A 25 25 0 0 0 207.97461 26.306641 A 25 25 0 0 0 207.57422 26.175781 A 25 25 0 0 0 207.2207 26.064453 A 25 25 0 0 0 207.17383 26.050781 A 25 25 0 0 0 207.08984 26.025391 A 25 25 0 0 0 206.76953 25.933594 A 25 25 0 0 0 206.68555 25.910156 A 25 25 0 0 0 206.36328 25.824219 A 25 25 0 0 0 206.12891 25.763672 A 25 25 0 0 0 205.87109 25.699219 A 25 25 0 0 0 205.54688 25.623047 A 25 25 0 0 0 205.46289 25.603516 A 25 25 0 0 0 205.13672 25.533203 A 25 25 0 0 0 205.03711 25.513672 A 25 25 0 0 0 204.65039 25.435547 A 25 25 0 0 0 204.63867 25.433594 A 25 25 0 0 0 204.31055 25.375 A 25 25 0 0 0 204.22461 25.359375 A 25 25 0 0 0 203.89648 25.304688 A 25 25 0 0 0 203.81055 25.291016 A 25 25 0 0 0 203.48047 25.242188 A 25 25 0 0 0 203.39453 25.230469 A 25 25 0 0 0 203.0625 25.1875 A 25 25 0 0 0 202.97656 25.177734 A 25 25 0 0 0 202.64453 25.140625 A 25 25 0 0 0 202.27344 25.103516 A 25 25 0 0 0 202.22656 25.099609 A 25 25 0 0 0 202.14062 25.091797 A 25 25 0 0 0 202.02539 25.082031 A 25 25 0 0 0 201.75 25.060547 A 25 25 0 0 0 201.7207 25.058594 A 25 25 0 0 0 201.38867 25.039062 A 25 25 0 0 0 201.1543 25.027344 A 25 25 0 0 0 200.88086 25.015625 A 25 25 0 0 0 200.54883 25.005859 A 25 25 0 0 0 200.46094 25.003906 A 25 25 0 0 0 200.03906 25 z "
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+       id="path845" />
   </g>
 </svg>
