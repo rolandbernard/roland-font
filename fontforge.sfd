@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1595591488
-ModificationTime: 1595685894
+ModificationTime: 1595696228
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -45,13 +45,13 @@ Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kernin
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 4 4 "'kern' Horizontal Kerning lookup 0 sub-table"
- 7 T V W Y
- 3 A M
+ 13 slash T V W Y
+ 13 A M backslash
  39 a b c e g h k m n o p q r s u v w x y z
- 3 A M
  35 a c d e g m n o p q r s u v w x y z
- 7 T V W Y
- 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} -100 {}
+ 17 T V W Y backslash
+ 9 slash A M
+ 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -100 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} -100 {} 0 {}
 LangName: 1033
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -65,7 +65,7 @@ BeginPrivate: 1
 BlueValues 31 [-15 1 450 450 735 735 750 765]
 EndPrivate
 TeXData: 1 0 0 314572 157286 104857 471859 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 105
+BeginChars: 256 106
 
 StartChar: O
 Encoding: 79 79 0
@@ -2092,20 +2092,19 @@ EndChar
 
 StartChar: backslash
 Encoding: 92 92 72
-Width: 583
+Width: 573
 VWidth: 950
 Flags: W
-HStem: 0 21G<451.467 553.078> 730 20G<30 131.608>
 LayerCount: 2
 Fore
 SplineSet
-463.013671875 0 m 1
- 41.259765625 730.501953125 l 1
- 30 750 l 1
- 120.060546875 750 l 1
- 542.142578125 18.947265625 l 1
- 553.078125 0 l 1
- 463.013671875 0 l 1
+458 -50 m 1
+ 36 781 l 1
+ 25 800 l 1
+ 115 800 l 1
+ 537 -31 l 1
+ 548 -50 l 1
+ 458 -50 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -2429,20 +2428,19 @@ EndChar
 
 StartChar: slash
 Encoding: 47 47 83
-Width: 583
+Width: 573
 VWidth: 950
 Flags: W
-HStem: 0 21G<30 131.608> 730 20G<451.467 553.078>
 LayerCount: 2
 Fore
 SplineSet
-463.013671875 750 m 1
- 553.078125 750 l 1
- 542.142578125 731.052734375 l 1
- 120.060546875 0 l 1
- 30 0 l 1
- 41.259765625 19.498046875 l 1
- 463.013671875 750 l 1
+458 800 m 1
+ 548 800 l 1
+ 537 781 l 1
+ 115 -50 l 1
+ 25 -50 l 1
+ 36 -31 l 1
+ 458 800 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -3054,6 +3052,41 @@ SplineSet
  230.001953125 -15 l 2
  133.826171875 -15 55 59.998046875 55 174.99609375 c 2
  55 450 l 1xf2
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: germandbls
+Encoding: 223 223 105
+Width: 590
+Flags: W
+HStem: -15 75<267 397.16> 0 21G<60 140> 352 75<267 335.006> 690 75<206.115 327.885>
+VStem: 60 80<0 620.423> 394 80<483.965 620.658> 470 80<133.82 279.878>
+LayerCount: 2
+Fore
+SplineSet
+267 765 m 0x7c
+ 377 765 474 660 474 550 c 0x7c
+ 474 497 443 443 409 407 c 1
+ 486 374 550 296 550 208 c 0
+ 550 90 446 -15 328 -15 c 2
+ 267 -15 l 1
+ 267 60 l 1
+ 321 60 l 1
+ 328 60 l 1
+ 403 60 470 133 470 208 c 0xba
+ 470 283 403 352 328 352 c 2
+ 267 352 l 1
+ 267 401 l 1
+ 267 413 l 1
+ 267 427 l 1
+ 334 427 394 483 394 550 c 0
+ 394 617 334 690 267 690 c 0
+ 200 690 140 617 140 550 c 2
+ 140 0 l 1
+ 60 0 l 1
+ 60 550 l 2
+ 60 660 157 765 267 765 c 0x7c
 EndSplineSet
 Validated: 1
 EndChar
