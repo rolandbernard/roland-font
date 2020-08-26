@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="characters.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="SquareL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareL">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path1961" />
+    </marker>
+    <filter
+       height="1.0000082"
+       y="-4.08e-06"
+       width="1.0000117"
+       x="-5.8285714e-06"
+       id="filter3013"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur3015"
+         stdDeviation="0.00033734375"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:object-nodes="true"
+     inkscape:snap-others="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-global="true"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.28"
+     inkscape:cx="347.20517"
+     inkscape:cy="642.91348"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     units="px"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1916"
+     inkscape:window-height="977"
+     inkscape:window-x="0"
+     inkscape:window-y="101"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     inkscape:snap-grids="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid833"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empspacing="10" />
+    <sodipodi:guide
+       position="0,264.58334"
+       orientation="0,-1"
+       id="guide853" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
+       position="0,0"
+       orientation="0,1"
+       id="guide855" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
+       position="0,52.916667"
+       orientation="0,1"
+       id="guide872" />
+    <sodipodi:guide
+       position="0,165.36458"
+       orientation="0,1"
+       id="guide878"
+       inkscape:label=""
+       inkscape:locked="true"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
+       id="guide1129"
+       orientation="-1,0"
+       position="132.29167,264.58333" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
+       id="guide1125"
+       orientation="0,1"
+       position="0,251.35417" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     inkscape:label="a"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:nodetypes="ssssssssss"
+       id="path1132"
+       d="M 58.869141,96.572266 C 26.512943,96.572265 -4.2536079e-6,123.08716 0,155.44336 c 2.8357381e-6,32.35619 26.512948,58.86914 58.869141,58.86914 32.356192,0 58.871089,-26.51295 58.871089,-58.86914 1e-5,-32.3562 -26.514892,-58.871094 -58.871089,-58.871094 z m 0,25.136064 c 18.057015,0 32.412111,15.67801 32.412109,33.73503 -2e-6,18.05701 -14.355097,33.73372 -32.412109,33.73372 -18.057013,0 -32.410155,-15.67683 -32.410157,-33.73384 -2e-6,-18.05702 14.353141,-33.73491 32.410157,-33.73491 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#020202;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:26.4584;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+    <path
+       id="path1127"
+       d="M 104.51039,99.218759 V 211.66668"
+       style="fill:none;stroke:#000000;stroke-width:26.4583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="b"
+     id="layer3"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="c"
+     id="layer4"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="d"
+     id="layer5"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="e"
+     id="layer6"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="f"
+     id="layer7"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="g"
+     id="layer8"
+     inkscape:groupmode="layer">
+    <path
+       transform="scale(0.26458333)"
+       d="M -202.24956,1131.6181"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:80.0001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1328" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="h"
+     id="layer13"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="i"
+     id="layer14"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="j"
+     id="layer15"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;opacity:0.993"
+     inkscape:label="k"
+     id="layer16"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="l"
+     id="layer17"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="m"
+     id="layer18"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="n" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="o" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="p"
+     id="layer19"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="q"
+     id="layer20"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="r"
+     id="layer21"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="s"
+     id="layer22"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="t"
+     id="layer23"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="u"
+     id="layer25"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="v"
+     id="layer26"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="w"
+     id="layer27"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="x"
+     id="layer28"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="y"
+     id="layer29"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="z"
+     id="layer30"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;opacity:1"
+     inkscape:label="A"
+     id="layer31"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="B"
+     id="layer32"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="C"
+     id="layer33"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="D"
+     id="layer34"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="E"
+     id="layer35"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="F"
+     id="layer36"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="G"
+     id="layer37"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="H" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="I"
+     id="layer38"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="J"
+     id="layer39"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="K"
+     id="layer40"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="L"
+     id="layer41"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="M"
+     id="layer42"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="N"
+     id="layer43"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="O"
+     style="display:none;mix-blend-mode:normal" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="P"
+     id="layer44"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="Q"
+     id="layer45"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="R"
+     id="layer46"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="S"
+     id="layer47"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;filter:url(#filter3013)"
+     inkscape:label="T"
+     id="layer48"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="U"
+     id="layer49"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="V"
+     id="layer50"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="W"
+     id="layer51"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="X"
+     id="layer52"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="Y"
+     id="layer53"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="Z"
+     id="layer54"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;opacity:1"
+     inkscape:label="0"
+     id="layer55"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="1"
+     id="layer56"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="2"
+     id="layer57"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="3"
+     id="layer58"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="4"
+     id="layer59"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="5"
+     id="layer60"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="6"
+     id="layer61"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="7"
+     id="layer62"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="8"
+     id="layer63"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="9"
+     id="layer64"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="?"
+     id="layer65"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="!"
+     id="layer66"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="&quot;"
+     id="layer67"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="#"
+     id="layer68"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="$"
+     id="layer69"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="%"
+     id="layer70"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="&amp;"
+     id="layer71"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="'"
+     id="layer72"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="("
+     id="layer73"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label=")"
+     id="layer74"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="*"
+     id="layer75"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="+"
+     id="layer76"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="-"
+     id="layer77"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label=","
+     id="layer78"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="."
+     id="layer79"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="/"
+     id="layer80"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label=":"
+     id="layer81"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label=";"
+     id="layer82"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="&lt;"
+     id="layer83"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="&gt;"
+     id="layer84"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="="
+     id="layer85"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="@"
+     id="layer86"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="["
+     id="layer87"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="]"
+     id="layer88"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="\"
+     id="layer89"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="^"
+     id="layer90"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="`"
+     id="layer91"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="|"
+     id="layer92"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="{"
+     id="layer93"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="}"
+     id="layer94"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="~"
+     id="layer96"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="_"
+     id="layer97"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Ä"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer24"
+     inkscape:label="Ö"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer98"
+     inkscape:label="Ü"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer99"
+     inkscape:label="ä"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer100"
+     inkscape:label="ö"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer101"
+     inkscape:label="ü"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none;mix-blend-mode:normal"
+     inkscape:label="ß"
+     id="layer102"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer103"
+     inkscape:label="à"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer104"
+     inkscape:label="á"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer105"
+     inkscape:label="è"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer106"
+     inkscape:label="é"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer107"
+     inkscape:label="ò"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer108"
+     inkscape:label="ó"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="µ"
+     id="layer109"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="·"
+     id="layer110"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="þ"
+     id="layer111"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="Þ"
+     id="layer118"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="Ø"
+     id="layer112"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="ø"
+     id="layer113"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="×"
+     id="layer114"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="÷"
+     id="layer115"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="€"
+     id="layer117"
+     inkscape:groupmode="layer" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer116"
+     inkscape:label="¢"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer119"
+     inkscape:label="£"
+     style="display:none;mix-blend-mode:normal">
+    <path
+       id="path1336"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:80.0001;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1111.2843,401.61485"
+       transform="scale(0.26458333)" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer120"
+     inkscape:label="¤"
+     style="display:none;mix-blend-mode:normal" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer121"
+     inkscape:label="¬"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer122"
+     inkscape:label="°"
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer123"
+     inkscape:label="¹ "
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer124"
+     inkscape:label="² "
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer125"
+     inkscape:label="³ "
+     style="display:none" />
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="Ref"
+     id="layer95"
+     inkscape:groupmode="layer">
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:277.596px;line-height:1.25;font-family:Futura;-inkscape-font-specification:Futura;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="text6070" />
+  </g>
+</svg>
