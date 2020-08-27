@@ -1,0 +1,93 @@
+SplineFontDB: 3.2
+FontName: Roland
+FullName: Roland
+FamilyName: Roland
+Weight: Bold
+Copyright: Copyright (c) 2020, Roland Bernard
+UComments: "2020-8-27: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 36 1614478912 12731404]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1598557364
+ModificationTime: 1598561078
+PfmFamily: 17
+TTFWeight: 1000
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 90
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2CapHeight: 750
+OS2XHeight: 450
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 38 14
+BeginPrivate: 1
+BlueValues 23 [-12 0 450 462 750 762]
+EndPrivate
+BeginChars: 256 2
+
+StartChar: space
+Encoding: 32 32 0
+Width: 450
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: e
+Encoding: 101 101 1
+Width: 554
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+277 462 m 0
+ 407.002929688 462 514 355.002929688 514 225 c 0
+ 514 207.8671875 512.124023438 191.141601562 508.599609375 175 c 1
+ 204.072265625 175 l 1
+ 219.442382812 149.6484375 246.038085938 132 277 132 c 2
+ 302 132 l 2
+ 327.21484375 132 349.543945312 143.698242188 365.265625 161.734375 c 1
+ 469.251953125 57.748046875 l 1
+ 426.251953125 14.748046875 367.001953125 -12 302 -12 c 2
+ 277 -12 l 2
+ 146.997070312 -12 40 94.9970703125 40 225 c 0
+ 40 355.002929688 146.997070312 462 277 462 c 0
+277 318 m 0
+ 246.038085938 318 219.442382812 300.3515625 204.072265625 275 c 1
+ 349.927734375 275 l 1
+ 334.557617188 300.3515625 307.961914062 318 277 318 c 0
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont
