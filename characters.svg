@@ -22,10 +22,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="602.05833"
-     inkscape:cy="604.9983"
+     inkscape:cx="551.42724"
+     inkscape:cy="516.37854"
      inkscape:document-units="px"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer7"
      showgrid="false"
      showguides="true"
      inkscape:window-width="1916"
@@ -192,7 +192,7 @@
      sodipodi:insensitive="true"
      id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Light - Capital X"
+     inkscape:label="Capital X - Light"
      style="display:none">
     <path
        id="path1673"
@@ -202,7 +202,7 @@
   <g
      sodipodi:insensitive="true"
      style="display:none"
-     inkscape:label="Light Condensed - Capital X"
+     inkscape:label="Capital X - Light Condensed"
      id="layer7"
      inkscape:groupmode="layer">
     <path
@@ -214,7 +214,7 @@
   <g
      style="display:none"
      sodipodi:insensitive="true"
-     inkscape:label="Light Expanded - Capital X"
+     inkscape:label="Capital X - Light Expanded"
      id="layer12"
      inkscape:groupmode="layer">
     <path
@@ -226,7 +226,7 @@
      sodipodi:insensitive="true"
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Bold - Capital X"
+     inkscape:label="Capital X - Bold"
      style="display:none">
     <path
        sodipodi:nodetypes="ccccccccccccc"
@@ -237,7 +237,7 @@
   <g
      style="display:none"
      sodipodi:insensitive="true"
-     inkscape:label="Bold Expanded - Capital X"
+     inkscape:label="Capital X - Bold Expanded"
      id="layer15"
      inkscape:groupmode="layer">
     <path
@@ -249,7 +249,7 @@
      sodipodi:insensitive="true"
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Light - Capital Q"
+     inkscape:label="Capital Q - Light"
      style="display:none">
     <path
        d="M 377,46 C 168.93668,46 0,214.9367 0,423 v 1 c 0,208.06329 168.93671,376 377,376 h 1 c 99.53945,0 189.12162,-38.66789 256.53711,-101.78516 34.50088,34.50317 69.86001,69.85765 99.78516,99.78516 h 35.35546 C 729.26625,757.59198 687.81224,716.13535 652.21484,680.53711 715.33211,613.12162 754,523.53945 754,424 v -1 C 754,214.93671 586.0633,46 378,46 Z m 0,24 h 1 c 194.5523,0 351,158.44771 351,353 v 1 c 0,92.65625 -35.71269,176.12344 -94.13672,239.18555 -34.52259,-34.52488 -69.89395,-69.89158 -99.83398,-99.83399 h -35.35547 c 40.4512,40.44775 81.91454,81.9137 117.5625,117.5625 C 554.35738,739.86157 470.91048,776 378,776 h -1 C 182.44771,776 25,618.55229 25,424 v -1 C 25,228.44771 182.44768,70 377,70 Z"
@@ -259,7 +259,7 @@
   <g
      sodipodi:insensitive="true"
      style="display:none"
-     inkscape:label="Light Condensed - Capital Q"
+     inkscape:label="Capital Q - Light Condensed"
      id="layer8"
      inkscape:groupmode="layer">
     <path
@@ -270,7 +270,7 @@
   <g
      style="display:none"
      sodipodi:insensitive="true"
-     inkscape:label="Light Expanded - Capital Q"
+     inkscape:label="Capital Q - Light Expanded"
      id="layer13"
      inkscape:groupmode="layer">
     <path
@@ -283,7 +283,7 @@
      sodipodi:insensitive="true"
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Bold - Capital Q"
+     inkscape:label="Capital Q - Bold"
      style="display:none">
     <path
        sodipodi:nodetypes="sssssccccssssssssccccsssss"
@@ -294,7 +294,7 @@
   <g
      sodipodi:insensitive="true"
      style="display:none"
-     inkscape:label="Bold Expanded - Capital Q"
+     inkscape:label="Capital Q - Bold Expanded"
      id="layer16"
      inkscape:groupmode="layer">
     <path
@@ -307,7 +307,7 @@
      sodipodi:insensitive="true"
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="Light - Lower e"
+     inkscape:label="Lower e - Light"
      style="display:none">
     <path
        sodipodi:nodetypes="sssccccccsccssssssscccs"
@@ -318,7 +318,7 @@
   <g
      sodipodi:insensitive="true"
      style="display:none"
-     inkscape:label="Light Condensed - Lower e"
+     inkscape:label="Lower e - Light Condensed"
      id="layer9"
      inkscape:groupmode="layer">
     <path
@@ -330,7 +330,7 @@
   <g
      style="display:none"
      sodipodi:insensitive="true"
-     inkscape:label="Light Expanded - Lower e"
+     inkscape:label="Lower e - Light Expanded"
      id="layer14"
      inkscape:groupmode="layer">
     <path
@@ -343,7 +343,7 @@
      sodipodi:insensitive="true"
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="Bold - Lower e"
+     inkscape:label="Lower e - Bold"
      style="display:none">
     <path
        sodipodi:nodetypes="sssccccccsccssssssscccs"
@@ -352,7 +352,9 @@
        id="path2033" />
   </g>
   <g
-     inkscape:label="Bold Expanded - Lower e"
+     style="display:none"
+     sodipodi:insensitive="true"
+     inkscape:label="Lower e - Bold Expanded"
      id="layer17"
      inkscape:groupmode="layer">
     <path
