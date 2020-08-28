@@ -1,0 +1,159 @@
+SplineFontDB: 3.2
+FontName: Roland
+FullName: Roland
+FamilyName: Roland
+Weight: Light
+Copyright: Copyright (c) 2020, Roland Bernard
+UComments: "2020-8-28: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 36 1614478912 10685025]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1598628929
+ModificationTime: 1598630792
+PfmFamily: 17
+TTFWeight: 0
+TTFWidth: 8
+LineGap: 90
+VLineGap: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 90
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2CapHeight: 750
+OS2XHeight: 450
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 30 13
+BeginPrivate: 1
+BlueValues 22 [-2 0 450 452 750 752]
+EndPrivate
+BeginChars: 256 4
+
+StartChar: space
+Encoding: 32 32 0
+Width: 550
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: X
+Encoding: 88 88 1
+Width: 845
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+30 750 m 1
+ 65.35546875 750 l 1
+ 422.677734375 392.67578125 l 1
+ 780 750 l 1
+ 815.35546875 750 l 1
+ 440.353515625 375 l 1
+ 815.35546875 0 l 1
+ 780 0 l 1
+ 422.677734375 357.32421875 l 1
+ 65.35546875 0 l 1
+ 30 0 l 1
+ 405.001953125 375 l 1
+ 30 750 l 1
+EndSplineSet
+EndChar
+
+StartChar: Q
+Encoding: 81 81 2
+Width: 1196
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+407 752 m 2
+ 785 752 l 2
+ 993.063476562 752 1161 583.063476562 1161 375 c 2
+ 1161 374 l 2
+ 1161 274.4609375 1122.33203125 184.877929688 1059.21484375 117.462890625 c 1
+ 1176.67773438 0 l 1
+ 1141.32226562 0 l 1
+ 1041.53710938 99.78515625 l 1
+ 974.122070312 36.66796875 884.5390625 -2 785 -2 c 2
+ 407 -2 l 2
+ 198.936523438 -2 30 165.936523438 30 374 c 2
+ 30 375 l 2
+ 30 583.063476562 198.936523438 752 407 752 c 2
+407 728 m 2
+ 212.447265625 728 55 569.552734375 55 375 c 2
+ 55 374 l 2
+ 55 179.447265625 212.447265625 22 407 22 c 2
+ 785 22 l 2
+ 877.91015625 22 961.357421875 58.138671875 1024.23632812 117.0859375 c 1
+ 906.673828125 234.6484375 l 1
+ 942.029296875 234.6484375 l 1
+ 1041.86328125 134.814453125 l 1
+ 1100.28710938 197.876953125 1136 281.34375 1136 374 c 2
+ 1136 375 l 2
+ 1136 569.552734375 979.552734375 728 785 728 c 2
+ 407 728 l 2
+EndSplineSet
+EndChar
+
+StartChar: e
+Encoding: 101 101 3
+Width: 761
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+266 452 m 2
+ 494 452 l 2
+ 619.220703125 452 721 351.220703125 721 226 c 2
+ 721 225 l 2
+ 720.68359375 213 l 2
+ 65.361328125 213 l 1
+ 65.4296875 211.892578125 l 0
+ 72.1650390625 106.239257812 158.694335938 22 266 22 c 2
+ 519 22 l 2
+ 574.981445312 22 625.581054688 44.9296875 662.13671875 81.86328125 c 1
+ 679.45703125 64.54296875 l 1
+ 638.359375 23.4453125 581.610351562 -2 519 -2 c 2
+ 266 -2 l 2
+ 140.779296875 -2 40 99.779296875 40 225 c 2
+ 40 226 l 2
+ 40 351.220703125 140.779296875 452 266 452 c 2
+266 428 m 2
+ 158.572265625 428 71.9658203125 343.569335938 65.40625 237.748046875 c 0
+ 65.361328125 237 l 1
+ 695.638671875 237 l 1
+ 695.60546875 237.552734375 l 0
+ 689.141601562 343.465820312 601.493164062 428 494 428 c 2
+ 266 428 l 2
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

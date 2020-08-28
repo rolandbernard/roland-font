@@ -2,7 +2,7 @@
 <designspace format="4.0">
   <axes>
     <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
-    <axis tag="wdth" name="width" minimum="0" maximum="500" default="500"/>
+    <axis tag="wdth" name="width" minimum="0" maximum="1000" default="500"/>
   </axes>
   <sources>
     <source filename="masters/Light.ufo">
@@ -25,6 +25,18 @@
       <location>
         <dimension name="weight" xvalue="0"/>
         <dimension name="width" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="masters/Light-Expanded.ufo">
+      <location>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="width" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="masters/Bold-Expanded.ufo">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="width" xvalue="1000"/>
       </location>
     </source>
   </sources>
