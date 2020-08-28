@@ -4,7 +4,7 @@
     <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
   </axes>
   <sources>
-    <source filename="masters/Light-Regular.ufo" name="master.Roland.Light.0" familyname="Roland" stylename="Light">
+    <source filename="masters/Light-Regular.ufo">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -13,7 +13,7 @@
         <dimension name="weight" xvalue="0"/>
       </location>
     </source>
-    <source filename="masters/Bold-Regular.ufo" familyname="Roland" stylename="Bold">
+    <source filename="masters/Bold-Regular.ufo">
       <location>
         <dimension name="weight" xvalue="1000"/>
       </location>
