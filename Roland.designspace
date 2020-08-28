@@ -2,7 +2,7 @@
 <designspace format="4.0">
   <axes>
     <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
-    <axis tag="wdth" name="width" minimum="0" maximum="1000" default="500"/>
+    <axis tag="wdth" name="width" minimum="50" maximum="150" default="100"/>
   </axes>
   <sources>
     <source filename="masters/Light.ufo">
@@ -12,32 +12,88 @@
       <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="0"/>
-        <dimension name="width" xvalue="500"/>
+        <dimension name="width" xvalue="100"/>
       </location>
     </source>
     <source filename="masters/Bold.ufo">
       <location>
         <dimension name="weight" xvalue="1000"/>
-        <dimension name="width" xvalue="500"/>
+        <dimension name="width" xvalue="100"/>
       </location>
     </source>
     <source filename="masters/Light-Condensed.ufo">
       <location>
         <dimension name="weight" xvalue="0"/>
-        <dimension name="width" xvalue="0"/>
+        <dimension name="width" xvalue="50"/>
       </location>
     </source>
     <source filename="masters/Light-Expanded.ufo">
       <location>
         <dimension name="weight" xvalue="0"/>
-        <dimension name="width" xvalue="1000"/>
+        <dimension name="width" xvalue="150"/>
       </location>
     </source>
     <source filename="masters/Bold-Expanded.ufo">
       <location>
         <dimension name="weight" xvalue="1000"/>
-        <dimension name="width" xvalue="1000"/>
+        <dimension name="width" xvalue="150"/>
       </location>
     </source>
   </sources>
+  <instances>
+    <instance stylename="Regular">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance stylename="Bold">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance stylename="Light">
+      <location>
+        <dimension name="weight" xvalue="200"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance stylename="Expanded">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="125"/>
+      </location>
+    </instance>
+    <instance stylename="Bold Expanded">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="width" xvalue="125"/>
+      </location>
+    </instance>
+    <instance stylename="Light Expanded">
+      <location>
+        <dimension name="weight" xvalue="200"/>
+        <dimension name="width" xvalue="125"/>
+      </location>
+    </instance>
+    <instance stylename="Condensed">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="75"/>
+      </location>
+    </instance>
+    <instance stylename="Bold Condensed">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="width" xvalue="75"/>
+      </location>
+    </instance>
+    <instance stylename="Light Condensed">
+      <location>
+        <dimension name="weight" xvalue="200"/>
+        <dimension name="width" xvalue="75"/>
+      </location>
+    </instance>
+  </instances>
 </designspace>
