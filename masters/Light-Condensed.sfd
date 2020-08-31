@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1598621781
-ModificationTime: 1598901332
+ModificationTime: 1598903271
 PfmFamily: 17
 TTFWeight: 0
 TTFWidth: 1
@@ -43,13 +43,8 @@ HheadDOffset: 1
 OS2CapHeight: 750
 OS2XHeight: 500
 OS2Vendor: 'PfEd'
-Lookup: 258 0 0 "Kerning" { "Kerning-1" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 2 "Kerning-1"
- 1 e
- 1 X
- 0 {} 0 {} 0 {} -1 {}
 LangName: 1033
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -57,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 13
+WinInfo: 0 27 14
 BeginPrivate: 1
 BlueValues 22 [-2 0 450 452 750 752]
 EndPrivate

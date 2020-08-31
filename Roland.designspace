@@ -15,12 +15,6 @@
         <dimension name="width" xvalue="100"/>
       </location>
     </source>
-    <source filename="masters/Bold.ufo">
-      <location>
-        <dimension name="weight" xvalue="1000"/>
-        <dimension name="width" xvalue="100"/>
-      </location>
-    </source>
     <source filename="masters/Light-Condensed.ufo">
       <location>
         <dimension name="weight" xvalue="0"/>
@@ -31,6 +25,18 @@
       <location>
         <dimension name="weight" xvalue="0"/>
         <dimension name="width" xvalue="150"/>
+      </location>
+    </source>
+    <source filename="masters/Bold.ufo">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="masters/Bold-Condensed.ufo">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="width" xvalue="75"/>
       </location>
     </source>
     <source filename="masters/Bold-Expanded.ufo">
