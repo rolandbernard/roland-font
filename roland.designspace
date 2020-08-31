@@ -1,21 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="wght" name="weight" minimum="0" maximum="1000" default="400"/>
+    <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
     <axis tag="wdth" name="width" minimum="50" maximum="150" default="100"/>
   </axes>
   <sources>
-    <source filename="./build/instances_ufo/Regular.ufo" familyname="Roland" stylename="Regular">
+    <source filename="./build/masters_ufo/Light.ufo" familyname="Roland" stylename="Thin">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
       <info copy="1"/>
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="width" xvalue="100"/>
-      </location>
-    </source>
-    <source filename="./build/masters_ufo/Light.ufo" familyname="Roland" stylename="Thin">
       <location>
         <dimension name="weight" xvalue="0"/>
         <dimension name="width" xvalue="100"/>
@@ -42,7 +36,7 @@
     <source filename="./build/masters_ufo/Bold-Condensed.ufo" familyname="Roland" stylename="Black Extra-Condensed">
       <location>
         <dimension name="weight" xvalue="1000"/>
-        <dimension name="width" xvalue="75"/>
+        <dimension name="width" xvalue="50"/>
       </location>
     </source>
     <source filename="./build/masters_ufo/Bold-Expanded.ufo" familyname="Roland" stylename="Black Extra-Expanded">
@@ -112,7 +106,7 @@
     <instance familyname="Roland" stylename="Bold Condensed" filename="./build/instances_ufo/Bold-Condensed.ufo">
       <location>
         <dimension name="weight" xvalue="700"/>
-        <dimension name="width" xvalue="75"/>
+        <dimension name="width" xvalue="50"/>
       </location>
       <kerning/>
       <info/>
@@ -120,7 +114,7 @@
     <instance familyname="Roland" stylename="Light Condensed" filename="./build/instances_ufo/Light-Condensed.ufo">
       <location>
         <dimension name="weight" xvalue="200"/>
-        <dimension name="width" xvalue="75"/>
+        <dimension name="width" xvalue="65"/>
       </location>
       <kerning/>
       <info/>

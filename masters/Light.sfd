@@ -3,6 +3,7 @@ FontName: Roland
 FullName: Roland
 FamilyName: Roland
 Weight: Light
+
 Copyright: Copyright (c) 2020, Roland Bernard
 UComments: "2020-8-27: Created with FontForge (http://fontforge.org)"
 Version: 001.000
@@ -21,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1598555393
-ModificationTime: 1598903280
+ModificationTime: 1598907867
 PfmFamily: 17
 TTFWeight: 0
 TTFWidth: 5
@@ -52,7 +53,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 14
+WinInfo: 0 38 14
 BeginPrivate: 1
 BlueValues 22 [-2 0 450 452 750 752]
 EndPrivate
