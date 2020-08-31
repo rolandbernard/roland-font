@@ -1,45 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.0">
+<designspace format="4.1">
   <axes>
-    <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
+    <axis tag="wght" name="weight" minimum="0" maximum="1000" default="400"/>
     <axis tag="wdth" name="width" minimum="50" maximum="150" default="100"/>
   </axes>
   <sources>
-    <source filename="masters/Light.ufo">
+    <source filename="./build/instances_ufo/Regular.ufo" familyname="Roland" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
       <info copy="1"/>
       <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="./build/masters_ufo/Light.ufo" familyname="Roland" stylename="Thin">
+      <location>
         <dimension name="weight" xvalue="0"/>
         <dimension name="width" xvalue="100"/>
       </location>
     </source>
-    <source filename="masters/Light-Condensed.ufo">
+    <source filename="./build/masters_ufo/Light-Condensed.ufo" familyname="Roland" stylename="Thin Extra-Condensed">
       <location>
         <dimension name="weight" xvalue="0"/>
         <dimension name="width" xvalue="50"/>
       </location>
     </source>
-    <source filename="masters/Light-Expanded.ufo">
+    <source filename="./build/masters_ufo/Light-Expanded.ufo" familyname="Roland" stylename="Thin Extra-Expanded">
       <location>
         <dimension name="weight" xvalue="0"/>
         <dimension name="width" xvalue="150"/>
       </location>
     </source>
-    <source filename="masters/Bold.ufo">
+    <source filename="./build/masters_ufo/Bold.ufo" familyname="Roland" stylename="Black">
       <location>
         <dimension name="weight" xvalue="1000"/>
         <dimension name="width" xvalue="100"/>
       </location>
     </source>
-    <source filename="masters/Bold-Condensed.ufo">
+    <source filename="./build/masters_ufo/Bold-Condensed.ufo" familyname="Roland" stylename="Black Extra-Condensed">
       <location>
         <dimension name="weight" xvalue="1000"/>
         <dimension name="width" xvalue="75"/>
       </location>
     </source>
-    <source filename="masters/Bold-Expanded.ufo">
+    <source filename="./build/masters_ufo/Bold-Expanded.ufo" familyname="Roland" stylename="Black Extra-Expanded">
       <location>
         <dimension name="weight" xvalue="1000"/>
         <dimension name="width" xvalue="150"/>
@@ -47,59 +53,77 @@
     </source>
   </sources>
   <instances>
-    <instance stylename="Regular">
+    <instance familyname="Roland" stylename="Regular" filename="./build/instances_ufo/Regular.ufo">
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="width" xvalue="100"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
-    <instance stylename="Bold">
+    <instance familyname="Roland" stylename="Bold" filename="./build/instances_ufo/Bold.ufo">
       <location>
         <dimension name="weight" xvalue="700"/>
         <dimension name="width" xvalue="100"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
-    <instance stylename="Light">
+    <instance familyname="Roland" stylename="Light" filename="./build/instances_ufo/Light.ufo">
       <location>
         <dimension name="weight" xvalue="200"/>
         <dimension name="width" xvalue="100"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
-    <instance stylename="Expanded">
+    <instance familyname="Roland" stylename="Expanded" filename="./build/instances_ufo/Expanded.ufo">
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="width" xvalue="125"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
-    <instance stylename="Bold Expanded">
+    <instance familyname="Roland" stylename="Bold Expanded" filename="./build/instances_ufo/Bold-Expanded.ufo">
       <location>
         <dimension name="weight" xvalue="700"/>
         <dimension name="width" xvalue="125"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
-    <instance stylename="Light Expanded">
+    <instance familyname="Roland" stylename="Light Expanded" filename="./build/instances_ufo/Light-Expanded.ufo">
       <location>
         <dimension name="weight" xvalue="200"/>
         <dimension name="width" xvalue="125"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
-    <instance stylename="Condensed">
+    <instance familyname="Roland" stylename="Condensed" filename="./build/instances_ufo/Condensed.ufo">
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="width" xvalue="75"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
-    <instance stylename="Bold Condensed">
+    <instance familyname="Roland" stylename="Bold Condensed" filename="./build/instances_ufo/Bold-Condensed.ufo">
       <location>
         <dimension name="weight" xvalue="700"/>
         <dimension name="width" xvalue="75"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
-    <instance stylename="Light Condensed">
+    <instance familyname="Roland" stylename="Light Condensed" filename="./build/instances_ufo/Light-Condensed.ufo">
       <location>
         <dimension name="weight" xvalue="200"/>
         <dimension name="width" xvalue="75"/>
       </location>
+      <kerning/>
+      <info/>
     </instance>
   </instances>
 </designspace>
