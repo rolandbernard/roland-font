@@ -71,6 +71,8 @@ for master in designed_masters:
         ("ranges", None), "oslash", "ydieresis",
     ) # Only kern alphanumeric characters
     font.autoKern("Kerning-1", 100)
+    font.selection.all()
+    font.autoHint()
     font.generate("build/masters_ufo/" + master[0] + ".ufo")
     all_masters.append(master + [ font ])
 
@@ -92,7 +94,7 @@ for master in all_masters.copy():
         if baseWidth(glyph) > target_width:
             interpolate_with = origin_fonts[1][glyph.glyphname]
         else:
-            interpolate_with = origin_fonts[0][glyph.glyphname]
+            interpolate_with = origin_fonts[2][glyph.glyphname]
         if abs(baseWidth(interpolate_with) - baseWidth(glyph)) > 50:
             new_glyph = font.createInterpolatedGlyph(glyph, interpolate_with, (target_width - 40 - baseWidth(glyph)) / (baseWidth(interpolate_with) - baseWidth(glyph)))
         else:
@@ -119,6 +121,8 @@ for master in all_masters.copy():
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
     font["e"].addPosSub("Kerning-1", "X", 0)
+    font.selection.all()
+    font.autoHint()
     font.generate("build/masters_ufo/Mono-" + master[0] + ".ufo")
     all_masters.append(["Mono-" + master[0], master[1] + [ 1 ], font])
     master[1].append(0)
@@ -131,6 +135,8 @@ for master in all_masters.copy():
     font.italicangle = -20
     font.selection.all()
     font.transform([1, 0, math.sin(math.radians(20)), 1, 0, 0])
+    font.selection.all()
+    font.autoHint()
     font.generate("build/masters_ufo/" + master[0] + "-Italic" + ".ufo")
     all_masters.append([master[0] + "-Italic", master[1] + [ 20 ], font])
     master[1].append(0)
