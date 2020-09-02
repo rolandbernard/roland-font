@@ -1,4 +1,5 @@
 
+import math
 import os 
 import fontTools.designspaceLib as designspace
 import fontforge
@@ -61,13 +62,14 @@ for master in designed_masters:
     font.autoKern("Kerning-1", 100)
     font.generate("build/masters_ufo/" + master[0] + ".ufo")
     all_masters.append(master + [ font ])
+
 # Generate slanted fonts
 for master in all_masters.copy():
     font = master[2]
     # Make the font italic
     font.italicangle = -20
     font.selection.all()
-    font.italicize(italic_angle = -20)
+    font.transform([1, 0, math.sin(math.radians(20)), 1, 0, 0])
     font.generate("build/masters_ufo/" + master[0] + "-Italic" + ".ufo")
     all_masters.append([master[0] + "-Italic", master[1] + [ 20 ], font])
     master[1].append(0)
