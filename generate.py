@@ -95,8 +95,11 @@ for master in all_masters.copy():
             interpolate_with = origin_fonts[1][glyph.glyphname]
         else:
             interpolate_with = origin_fonts[2][glyph.glyphname]
-        if abs(baseWidth(interpolate_with) - baseWidth(glyph)) > 50:
-            new_glyph = font.createInterpolatedGlyph(glyph, interpolate_with, (target_width - 40 - baseWidth(glyph)) / (baseWidth(interpolate_with) - baseWidth(glyph)))
+        if abs(baseWidth(interpolate_with) - baseWidth(glyph)) > 5:
+            q = (target_width - 40 - baseWidth(glyph)) / (baseWidth(interpolate_with) - baseWidth(glyph))
+            if baseWidth(glyph) < target_width and q > 1.25:
+                q = 1.25
+            new_glyph = font.createInterpolatedGlyph(glyph, interpolate_with, q)
         else:
             new_glyph = font.createInterpolatedGlyph(glyph, interpolate_with, 0)
         new_glyph.left_side_bearing = 0
