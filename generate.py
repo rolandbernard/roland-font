@@ -9,6 +9,7 @@ family_name = "Roland"
 axises = [
     ["wgth", "weight", 0, 1000, 0],
     ["wdth", "width", 50, 150, 100],
+    ["slnt", "slant", 0, 20, 0],
 ]
 designed_masters = [
     ["Light", [ 0, 100 ]], 
@@ -29,6 +30,10 @@ instances = [
         ["", 100],
         ["Condensed", 75],
         ["Expanded", 125]
+    ],
+    [
+        ["", 0],
+        ["Italic", 10],
     ]
 ]
 
@@ -41,24 +46,31 @@ for master in designed_masters:
     # Create auto width
     font.selection.select("\"") # Select characters that I don't want to change
     font.selection.invert()
-    font.autoWidth(70, minBearing=20)
+    font.autoWidth(100, minBearing=20)
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
     font.selection.select(
         ("ranges", None), "A", "Z",
         ("ranges", None), "a", "z",
-        ("ranges", None), "0", "9",
+        ("ranges", None), "zero", "nine",
         ("ranges", None), "Agrave", "Odieresis",
         ("ranges", None), "Oslash", "odieresis",
         ("ranges", None), "oslash", "ydieresis",
     ) # Only kern alphanumeric characters
-    font.autoKern("Kerning-1", 150)
-    # Create auto hinting
-    font.selection.all()
-    font.autoHint()
+    font.autoKern("Kerning-1", 100)
     font.generate("build/masters_ufo/" + master[0] + ".ufo")
     all_masters.append(master + [ font ])
+# Generate slanted fonts
+for master in all_masters.copy():
+    font = master[2]
+    # Make the font italic
+    font.italicangle = -20
+    font.selection.all()
+    font.italicize(italic_angle = -20)
+    font.generate("build/masters_ufo/" + master[0] + "-Italic" + ".ufo")
+    all_masters.append([master[0] + "-Italic", master[1] + [ 20 ], font])
+    master[1].append(0)
 
 document = designspace.DesignSpaceDocument()
 for axis in axises:
@@ -114,10 +126,6 @@ for instance in instances_resolved:
     document.addInstance(i)
 
 document.write("build/roland.designspace")
-
-# Close all fonts
-for master in all_masters:
-    master[2].close()
 
 # Generate all instances as ttf
 os.system("fontmake --verbose WARNING -m build/roland.designspace -o ufo ttf -i --production-names --output-dir build/instances_ttf")
