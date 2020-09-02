@@ -70,7 +70,7 @@ for master in designed_masters:
         ("ranges", None), "Oslash", "odieresis",
         ("ranges", None), "oslash", "ydieresis",
     ) # Only kern alphanumeric characters
-    font.autoKern("Kerning-1", 100)
+    font.autoKern("Kerning-1", 100, touch=1)
     font.selection.all()
     font.autoHint()
     font.generate("build/masters_ufo/" + master[0] + ".ufo")

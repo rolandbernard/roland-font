@@ -23,10 +23,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="0.60190046"
-     inkscape:cy="380.93536"
+     inkscape:cx="296.21238"
+     inkscape:cy="236.5905"
      inkscape:document-units="px"
-     inkscape:current-layer="layer59"
+     inkscape:current-layer="layer61"
      showgrid="false"
      showguides="true"
      inkscape:window-width="1916"
@@ -138,6 +138,13 @@
        id="guide1606"
        orientation="0.96592583,-0.25881905"
        position="0,200" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
+       id="guide3444"
+       orientation="0,1"
+       position="0,575" />
   </sodipodi:namedview>
   <defs
      id="defs4">
@@ -497,9 +504,22 @@
      id="layer35"
      inkscape:groupmode="layer">
     <path
-       d="M 0,50 H 25 V 800 H 0 Z"
+       sodipodi:nodetypes="ccccccc"
+       d="M 0,50 H 25 V 800 H 0 V 74.100113 73.999711 Z"
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:150;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2013" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="1 - Light Expanded"
+     id="layer61"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:nodetypes="ccccccc"
+       d="M 250,48 -4.94531,116.3125 1.26758,139.49414 225,79.544922 V 800 h 25 z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:150.001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
+       id="rect3455" />
   </g>
   <g
      sodipodi:insensitive="true"
@@ -508,9 +528,22 @@
      id="layer36"
      inkscape:groupmode="layer">
     <path
-       d="M 0,50 H 150 V 800 H 0 Z"
+       sodipodi:nodetypes="ccccccc"
+       d="M 0,50 H 150 V 800 H 0 v -608.91566 -0.0704 z"
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:150;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2017" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="1 - Bold Expanded"
+     id="layer62"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:nodetypes="ccccccc"
+       d="M 63.628906,133.52734 100.12305,269.72266 300,216.16602 V 800 H 450 V 30 Z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:150;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
+       id="rect3426" />
   </g>
   <g
      sodipodi:insensitive="true"
