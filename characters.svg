@@ -23,10 +23,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="579.27471"
-     inkscape:cy="573.80472"
+     inkscape:cx="361.31384"
+     inkscape:cy="587.73196"
      inkscape:document-units="px"
-     inkscape:current-layer="layer73"
+     inkscape:current-layer="layer76"
      showgrid="false"
      showguides="true"
      inkscape:window-width="1916"
@@ -145,6 +145,13 @@
        id="guide3444"
        orientation="0,1"
        position="0,575" />
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="true"
+       inkscape:label=""
+       id="guide3963"
+       orientation="0,1"
+       position="0,150" />
   </sodipodi:namedview>
   <defs
      id="defs4">
@@ -901,6 +908,74 @@
        d="M 648.83594,28.638672 221.79297,327.66992 C 151.24316,376.37854 104.97355,457.78277 105,550 l 5e-5,0.15826 C 105.04279,699.20242 225.93588,820 375,820 H 645 C 794.07993,820 914.97003,699.17679 914.99998,550.11085 L 915,550 C 915.03,400.88312 794.11688,284 645,284 H 525.04297 c -0.0443,0 -0.0885,0 -0.13281,0 L 734.97461,142.91797 Z M 375,420 h 270 c 66.27417,0 120.03144,63.72584 120,130 l -6e-5,0.11637 C 764.96852,616.34877 711.23538,680 645,680 H 375 C 308.7845,680 255.04764,616.38701 255.00013,550.17602 L 255,550 c -0.0476,-66.27415 53.72583,-130 120,-130 z"
        style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
        id="path3621" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="7 - Light"
+     id="layer75"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:nodetypes="ccccccc"
+       d="M 0,50 V 74 H 460.51562 L 10.376953,788.57812 30.060547,802.35938 504,50 Z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
+       id="rect3940" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="7 - Light Condensed"
+     id="layer76"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:nodetypes="ccccccc"
+       d="M 0,50 V 74 H 221.11133 L 14.380859,794.95703 38.412109,801.84766 254,50 Z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
+       id="rect3961" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="7 - Light Expanded"
+     id="layer77"
+     inkscape:groupmode="layer">
+    <path
+       d="M 0,50 V 74 H 697.43555 L 34.333984,785.08984 52.619141,802.14062 754,50 Z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:24.9999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
+       id="rect3975" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="7 - Bold"
+     id="layer78"
+     inkscape:groupmode="layer">
+    <path
+       d="M 0,50 V 190 H 293.47266 L 40.291016,758.6543 177.32422,819.66406 520,50 Z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
+       id="rect3987" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="7 - Bold Condensed"
+     id="layer79"
+     inkscape:groupmode="layer">
+    <path
+       d="M 0,50 V 190 H 195.34375 L 16.150391,776.11133 159.59766,819.9668 395,50 Z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
+       id="rect4001" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="7 - Bold Expanded"
+     id="layer80"
+     inkscape:groupmode="layer">
+    <path
+       d="M 0,50 V 190 H 482.94141 L 74.349609,732.2207 190.15234,819.48438 770,50 Z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
+       id="rect4013" />
   </g>
   <g
      sodipodi:insensitive="true"
