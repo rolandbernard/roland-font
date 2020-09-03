@@ -47,6 +47,7 @@ instances = [
 special_instances = [
     ["Mono", [400, 100, 1, 0]],
 ]
+separation = 100
 
 # Generate UFOs
 for master in designed_masters:
@@ -55,10 +56,10 @@ for master in designed_masters:
     font.fullname = family_name + " Variable"
     font.weight = "Variable"
     # Create auto width
-    font["space"].width = int(400 * math.sqrt(master[1][1] / 100))
+    font["space"].width = int(400 * master[1][1] / 100)
     font.selection.select("\"", " ") # Select characters that I don't want to change
     font.selection.invert()
-    font.autoWidth(75, minBearing=20)
+    font.autoWidth(separation)
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
@@ -70,7 +71,7 @@ for master in designed_masters:
         ("ranges", None), "Oslash", "odieresis",
         ("ranges", None), "oslash", "ydieresis",
     ) # Only kern alphanumeric characters
-    font.autoKern("Kerning-1", 75, touch=1, onlyCloser=True)
+    font.autoKern("Kerning-1", separation, touch=1, onlyCloser=True)
     # Generate auto hint
     font.selection.all()
     font.autoHint()
@@ -79,41 +80,42 @@ for master in designed_masters:
     all_masters.append(master + [ font ])
 
 # Generate the real bold condensed
-bold = all_masters[3][2]
-bold_condensed = all_masters[4][2]
-font = fontforge.font()
-for glyph in bold.glyphs():
-    font.createInterpolatedGlyph(glyph, bold_condensed[glyph.glyphname], 2)
-font.familyname = family_name
-font.fullname = family_name + " Variable"
-font.weight = "Variable"
-font.ascent = 800
-font.descent = 200
-font.os2_xheight = 500
-font.os2_capheight = 750
-# Create auto width
-font["space"].width = int(400 * math.sqrt(master[1][1] / 100))
-font.selection.select("\"", " ") # Select characters that I don't want to change
-font.selection.invert()
-font.autoWidth(75, minBearing=20)
-# Create auto kerning
-font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
-font.addLookupSubtable("Kerning", "Kerning-1")
-font.selection.select(
-    ("ranges", None), "A", "Z",
-    ("ranges", None), "a", "z",
-    ("ranges", None), "zero", "nine",
-    ("ranges", None), "Agrave", "Odieresis",
-    ("ranges", None), "Oslash", "odieresis",
-    ("ranges", None), "oslash", "ydieresis",
-) # Only kern alphanumeric characters
-font.autoKern("Kerning-1", 75, touch=1, onlyCloser=True)
-# Generate auto hint
-font.selection.all()
-font.autoHint()
-# Generate font
-font.generate("build/masters_ufo/Bold-ExtraCondensed.ufo")
-all_masters.append(["Bold-ExtraCondensed", [1000, 50], font])
+if True:
+    bold = all_masters[3][2]
+    bold_condensed = all_masters[4][2]
+    font = fontforge.font()
+    for glyph in bold.glyphs():
+        font.createInterpolatedGlyph(glyph, bold_condensed[glyph.glyphname], 2)
+    font.familyname = family_name
+    font.fullname = family_name + " Variable"
+    font.weight = "Variable"
+    font.ascent = 800
+    font.descent = 200
+    font.os2_xheight = 500
+    font.os2_capheight = 750
+    # Create auto width
+    font["space"].width = 200
+    font.selection.select("\"", " ") # Select characters that I don't want to change
+    font.selection.invert()
+    font.autoWidth(separation)
+    # Create auto kerning
+    font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
+    font.addLookupSubtable("Kerning", "Kerning-1")
+    font.selection.select(
+        ("ranges", None), "A", "Z",
+        ("ranges", None), "a", "z",
+        ("ranges", None), "zero", "nine",
+        ("ranges", None), "Agrave", "Odieresis",
+        ("ranges", None), "Oslash", "odieresis",
+        ("ranges", None), "oslash", "ydieresis",
+    ) # Only kern alphanumeric characters
+    font.autoKern("Kerning-1", separation, touch=1, onlyCloser=True)
+    # Generate auto hint
+    font.selection.all()
+    font.autoHint()
+    # Generate font
+    font.generate("build/masters_ufo/Bold-ExtraCondensed.ufo")
+    all_masters.append(["Bold-ExtraCondensed", [1000, 50], font])
 
 # Generate mono fonts
 for master in all_masters.copy():
@@ -145,7 +147,7 @@ for master in all_masters.copy():
             side_bearing = int((target_width - baseWidth(new_glyph)) / 2)
             new_glyph.left_side_bearing = side_bearing
             new_glyph.right_side_bearing = side_bearing
-        elif target_width < new_glyph.width:
+        elif target_width < new_glyph.width and baseWidth(new_glyph) != 0:
             new_glyph.transform([(target_width - 40) / baseWidth(new_glyph), 0, 0, 1, 0, 0])
             new_glyph.left_side_bearing = 20
             new_glyph.right_side_bearing = 20
