@@ -240,6 +240,6 @@ for instance in instances_resolved:
 document.write("build/roland.designspace")
 
 # Generate all instances as ttf
-os.system("fontmake --verbose WARNING -m build/roland.designspace -o ufo ttf -i --production-names --output-dir build/instances_ttf")
+os.system("fontmake --verbose WARNING -m build/roland.designspace -o ttf -i --production-names --output-dir build/instances_ttf")
 # Generate the variable font
 os.system("fontmake --verbose WARNING -m build/roland.designspace -o variable --production-names --output-path build/Roland.ttf")
