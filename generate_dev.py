@@ -77,4 +77,4 @@ for master in all_masters:
 document.write("build/roland.designspace")
 
 # Generate the variable font
-os.system("fontmake --verbose WARNING -m build/roland.designspace -o variable --production-names --output-path build/Roland.ttf")
+os.system("fontmake --verbose WARNING -m build/roland.designspace -o variable --production-names --output-path build/Roland_Min.ttf")
