@@ -10,12 +10,13 @@ def baseWidth(glyph):
 os.makedirs("build/masters_ufo", exist_ok=True)
 
 family_name = "Roland"
+slant_angle = 20
 axises = [
     ["wght", "weight", 0, 1000, 0],
     ["wdth", "width", 50, 150, 100],
     ["spcg", "spacing", 0, 500, 100],
     ["mono", "monospace", 0, 1, 0],
-    ["slnt", "slant", 0, 20, 0],
+    ["slnt", "slant", -slant_angle, slant_angle, 0, [(-slant_angle, 0), (0, slant_angle), (slant_angle, 2*slant_angle)]],
 ]
 designed_masters = [
     ["Light", [ 0, 100 ]], 
@@ -209,14 +210,25 @@ for master in all_masters.copy():
     # Make the font italic
     font.italicangle = -20
     font.selection.all()
-    font.transform([1, 0, math.sin(math.radians(20)), 1, 0, 0])
+    font.transform([1, 0, math.tan(math.radians(20)), 1, 0, 0])
     # Generate auto hint
     font.selection.all()
     font.autoHint()
     # Generate font
     font.generate("build/masters_ufo/" + master[0] + "-Italic" + ".ufo")
-    all_masters.append([master[0] + "-Italic", master[1] + [ 20 ], font])
-    master[1].append(0)
+    all_masters.append([master[0] + "-Italic", master[1] + [ 0 ], font])
+    # Make the font italic
+    font.italicangle = 20
+    font.selection.all()
+    font.transform([1, 0, math.tan(math.radians(-20)), 1, 0, 0])
+    font.transform([1, 0, math.tan(math.radians(-20)), 1, 0, 0])
+    # Generate auto hint
+    font.selection.all()
+    font.autoHint()
+    # Generate font
+    font.generate("build/masters_ufo/" + master[0] + "-Slanted" + ".ufo")
+    all_masters.append([master[0] + "-Slanted", master[1] + [ 2*slant_angle ], font])
+    master[1].append(slant_angle)
 
 document = designspace.DesignSpaceDocument()
 for axis in axises:
@@ -226,6 +238,8 @@ for axis in axises:
     a.minimum = axis[2]
     a.maximum = axis[3]
     a.default = axis[4]
+    if len(axis) > 5:
+        a.map = axis[5]
     document.addAxis(a)
 
 for master in all_masters:

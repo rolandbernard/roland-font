@@ -62,6 +62,8 @@ for axis in axises:
     a.minimum = axis[2]
     a.maximum = axis[3]
     a.default = axis[4]
+    if len(axis) > 5:
+        a.map = axis[5]
     document.addAxis(a)
 
 for master in all_masters:
