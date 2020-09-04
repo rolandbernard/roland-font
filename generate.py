@@ -11,7 +11,7 @@ os.makedirs("build/masters_ufo", exist_ok=True)
 
 family_name = "Roland"
 axises = [
-    ["wgth", "weight", 0, 1000, 0],
+    ["wght", "weight", 0, 1000, 0],
     ["wdth", "width", 50, 150, 100],
     ["slnt", "slant", 0, 20, 0],
 ]
@@ -77,6 +77,7 @@ if True:
     font.descent = 200
     font.os2_xheight = 500
     font.os2_capheight = 750
+    font.os2_weight = 1000
     # Create auto width
     font["space"].width = 200
     font.selection.select("\"", " ") # Select characters that I don't want to change

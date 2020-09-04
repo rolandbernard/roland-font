@@ -9,7 +9,7 @@ os.makedirs("build/masters_ufo", exist_ok=True)
 
 family_name = "Roland"
 axises = [
-    ["wgth", "weight", 0, 1000, 0],
+    ["wght", "weight", 0, 1000, 0],
     ["wdth", "width", 50, 150, 100],
 ]
 designed_masters = [

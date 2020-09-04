@@ -11,7 +11,7 @@ os.makedirs("build/masters_ufo", exist_ok=True)
 
 family_name = "Roland"
 axises = [
-    ["wgth", "weight", 0, 1000, 0],
+    ["wght", "weight", 0, 1000, 0],
     ["wdth", "width", 50, 150, 100],
     ["spcg", "spacing", 0, 500, 100],
     ["mono", "monospace", 0, 1, 0],
@@ -83,6 +83,7 @@ if True:
     font.descent = 200
     font.os2_xheight = 500
     font.os2_capheight = 750
+    font.os2_weight = 1000
     # Create auto width
     font["space"].width = 200
     font.selection.select("\"", " ") # Select characters that I don't want to change
@@ -121,6 +122,7 @@ for master in all_masters.copy():
         font.descent = 200
         font.os2_xheight = 500
         font.os2_capheight = 750
+        font.os2_weight = master[1][0]
         # Create auto width
         font["space"].width = int(400 * master[1][1] / 100)
         font.selection.select("\"", " ") # Select characters that I don't want to change
@@ -188,6 +190,7 @@ for master in all_masters.copy():
     font.descent = 200
     font.os2_xheight = 500
     font.os2_capheight = 750
+    font.os2_weight = master[1][0]
     # We need a kerning lookup, to interpolate with
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
