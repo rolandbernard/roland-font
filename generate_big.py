@@ -28,11 +28,11 @@ designed_masters = [
 ]
 all_masters = []
 instances = [
-    [["", 400],["Bold", 700],["Light", 200],],
+    [["Thin", 100],["Extra Light", 200],["Light", 300],["", 400],["Medium", 500],["Semi Bold", 600],["Bold", 700],["Extra Bold", 800],["Black", 900]],
     [["", 100],["Condensed", 75],["Expanded", 125],],
     [["", 100],],
     [["", 0],],
-    [["", 0],["Italic", 10],],
+    [["", 20],["Italic", 10],],
 ]
 special_instances = [
     ["Mono", [400, 100, 0, 1, 0]],
