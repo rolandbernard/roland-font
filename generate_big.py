@@ -125,7 +125,7 @@ for master in all_masters.copy():
         font.os2_capheight = 750
         font.os2_weight = master[1][0]
         # Create auto width
-        font["space"].width = int(400 * master[1][1] / 100)
+        font["space"].width = int(400 * 5 * master[1][1] / 100)
         font.selection.select("\"", " ") # Select characters that I don't want to change
         font.selection.invert()
         font.autoWidth(int(separation_width * sp * 5 * master[1][1] / 100))

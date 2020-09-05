@@ -44,7 +44,7 @@ for master in designed_masters:
     font["space"].width = int(400 * master[1][1] / 100)
     font.selection.select("\"", " ") # Select characters that I don't want to change
     font.selection.invert()
-    font.autoWidth(separation_width)
+    font.autoWidth(int(separation_width * master[1][1] / 100))
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
@@ -56,7 +56,7 @@ for master in designed_masters:
         ("ranges", None), "Oslash", "odieresis",
         ("ranges", None), "oslash", "ydieresis",
     ) # Only kern alphanumeric characters
-    font.autoKern("Kerning-1", separation_kerning, touch=1, onlyCloser=True)
+    font.autoKern("Kerning-1", int(separation_kerning * master[1][1] / 100), touch=1, onlyCloser=True)
     # Generate auto hint
     font.selection.all()
     font.autoHint()
@@ -84,6 +84,7 @@ if True:
     font.selection.select("\"", " ") # Select characters that I don't want to change
     font.selection.invert()
     font.autoWidth(separation_width)
+    font.autoWidth(int(separation_width / 2))
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
@@ -95,7 +96,7 @@ if True:
         ("ranges", None), "Oslash", "odieresis",
         ("ranges", None), "oslash", "ydieresis",
     ) # Only kern alphanumeric characters
-    font.autoKern("Kerning-1", separation_kerning, touch=1, onlyCloser=True)
+    font.autoKern("Kerning-1", int(separation_kerning / 2), touch=1, onlyCloser=True)
     # Generate auto hint
     font.selection.all()
     font.autoHint()
