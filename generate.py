@@ -33,6 +33,7 @@ instances = [
 special_instances = []
 separation_width = 100
 separation_kerning = 125
+kern_touch = 0
 
 # Generate UFOs
 for master in designed_masters:
@@ -56,7 +57,7 @@ for master in designed_masters:
         ("ranges", None), "Oslash", "odieresis",
         ("ranges", None), "oslash", "ydieresis",
     ) # Only kern alphanumeric characters
-    font.autoKern("Kerning-1", int(separation_kerning * master[1][1] / 100), touch=1, onlyCloser=True)
+    font.autoKern("Kerning-1", int(separation_kerning * master[1][1] / 100), touch=kern_touch, onlyCloser=True)
     # Generate auto hint
     font.selection.all()
     font.autoHint()
@@ -96,7 +97,7 @@ if True:
         ("ranges", None), "Oslash", "odieresis",
         ("ranges", None), "oslash", "ydieresis",
     ) # Only kern alphanumeric characters
-    font.autoKern("Kerning-1", int(separation_kerning / 2), touch=1, onlyCloser=True)
+    font.autoKern("Kerning-1", int(separation_kerning / 2), touch=kern_touch, onlyCloser=True)
     # Generate auto hint
     font.selection.all()
     font.autoHint()
