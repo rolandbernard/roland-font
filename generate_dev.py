@@ -21,9 +21,9 @@ designed_masters = [
     ["Bold-Expanded", [ 1000, 150 ]],
 ]
 all_masters = []
-separation_width = 100
+separation_width = 75
 separation_kerning = 125
-kern_touch = 0
+kern_touch = 1
 
 # Generate UFOs
 for master in designed_masters:
@@ -33,7 +33,7 @@ for master in designed_masters:
     font.weight = "Variable"
     # Create auto width
     font["space"].width = int(400 * master[1][1] / 100)
-    font.selection.select("\"", " ") # Select characters that I don't want to change
+    font.selection.select("\"", " ", "'") # Select characters that I don't want to change
     font.selection.invert()
     font.autoWidth(int(separation_width * master[1][1] / 100))
     # Create auto kerning
