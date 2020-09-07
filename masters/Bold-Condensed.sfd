@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1598898917
-ModificationTime: 1599501806
+ModificationTime: 1599507053
 PfmFamily: 17
 TTFWeight: 1000
 TTFWidth: 5
@@ -55,7 +55,7 @@ WinInfo: 0 30 12
 BeginPrivate: 1
 BlueValues 23 [-20 0 500 520 750 770]
 EndPrivate
-BeginChars: 256 62
+BeginChars: 256 65
 
 StartChar: X
 Encoding: 88 88 0
@@ -1267,7 +1267,7 @@ EndChar
 StartChar: O
 Encoding: 79 79 44
 Width: 1000
-Flags: H
+Flags: HO
 LayerCount: 2
 Fore
 SplineSet
@@ -1283,7 +1283,7 @@ SplineSet
 358.046875 630 m 2
  276.38671875 630.05859375 211.796875 555.41015625 211.796875 473.75 c 2
  211.796875 276.25 l 2
- 211.796875 194.58984375 276.38671875 119.961914062 358.046875 120 c 2
+ 211.796875 194.58984375 275.38671875 119.961914062 357.046875 120 c 2
  358.171875 120 l 2
  439.772460938 120.038085938 504.296875 194.631835938 504.296875 276.25 c 2
  504.296875 473.75 l 2
@@ -1653,7 +1653,7 @@ EndChar
 StartChar: W
 Encoding: 87 87 61
 Width: 953
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1671,6 +1671,74 @@ SplineSet
  364.57421875 0 l 5
  222.171875 0 l 5
  30 750 l 5
+EndSplineSet
+EndChar
+
+StartChar: M
+Encoding: 77 77 62
+Width: 812
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 750 m 1
+ 205.48828125 750 l 1
+ 401.25 234.625 l 5
+ 597.01171875 750 l 1
+ 752.5 750 l 1
+ 752.5 0 l 1
+ 602.5 0 l 1
+ 602.5 350.841796875 l 1
+ 471.134765625 0 l 5
+ 331.365234375 0 l 5
+ 200 350.841796875 l 1
+ 200 0 l 1
+ 50 0 l 1
+ 50 750 l 1
+EndSplineSet
+EndChar
+
+StartChar: N
+Encoding: 78 78 63
+Width: 625
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 750 m 5
+ 208.8515625 750 l 5
+ 425 317.705078125 l 5
+ 425 750 l 5
+ 575 750 l 5
+ 575 0 l 5
+ 416.1484375 0 l 5
+ 200 432.294921875 l 5
+ 200 0 l 5
+ 50 0 l 5
+ 50 750 l 5
+EndSplineSet
+EndChar
+
+StartChar: U
+Encoding: 85 85 64
+Width: 565
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 750 m 5
+ 200 750 l 5
+ 200 212.5 l 6
+ 200 166.047851562 236.047851562 119.94921875 282.5 120 c 6
+ 282.655273438 120 l 6
+ 329.032226562 120.051757812 365 166.099609375 365 212.5 c 6
+ 365 750 l 5
+ 515 750 l 5
+ 515 212.5 l 6
+ 515 85.0341796875 410.103515625 -19.95703125 282.65625 -20 c 6
+ 282.5 -20 l 6
+ 154.982421875 -20.04296875 50 84.982421875 50 212.5 c 6
+ 50 750 l 5
 EndSplineSet
 EndChar
 EndChars

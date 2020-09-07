@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1598626489
-ModificationTime: 1599501793
+ModificationTime: 1599505798
 PfmFamily: 17
 TTFWeight: 1000
 TTFWidth: 5
@@ -56,7 +56,7 @@ WinInfo: 0 30 12
 BeginPrivate: 1
 BlueValues 23 [-20 0 500 520 750 770]
 EndPrivate
-BeginChars: 256 62
+BeginChars: 256 65
 
 StartChar: space
 Encoding: 32 32 0
@@ -1658,7 +1658,7 @@ EndChar
 StartChar: W
 Encoding: 87 87 61
 Width: 1204
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1676,6 +1676,74 @@ SplineSet
  427.228515625 0 l 5
  288.240234375 0 l 5
  30 750 l 5
+EndSplineSet
+EndChar
+
+StartChar: M
+Encoding: 77 77 62
+Width: 1000
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+50 750 m 1
+ 209.6640625 750 l 1
+ 490 195.65234375 l 1
+ 770.3359375 750 l 1
+ 930 750 l 1
+ 930 0 l 1
+ 780 0 l 1
+ 780 445.1484375 l 1
+ 556.439453125 0 l 1
+ 423.560546875 0 l 1
+ 200 445.1484375 l 1
+ 200 0 l 1
+ 50 0 l 1
+ 50 750 l 1
+EndSplineSet
+EndChar
+
+StartChar: N
+Encoding: 78 78 63
+Width: 750
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 750 m 5
+ 215.138671875 750 l 5
+ 550 247.70703125 l 5
+ 550 750 l 5
+ 700 750 l 5
+ 700 0 l 5
+ 534.861328125 0 l 5
+ 200 502.29296875 l 5
+ 200 0 l 5
+ 50 0 l 5
+ 50 750 l 5
+EndSplineSet
+EndChar
+
+StartChar: U
+Encoding: 85 85 64
+Width: 720
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+50.0234375 750 m 5
+ 200.0234375 750 l 5
+ 200 290 l 6
+ 200 200.74609375 270.74609375 119.94140625 360 120 c 6
+ 360.1953125 120 l 6
+ 449.357421875 120.05859375 520 200.811523438 520 290 c 6
+ 520 750 l 5
+ 670 750 l 5
+ 670 290 l 6
+ 670 119.775390625 530.4765625 -19.921875 360.287109375 -20 c 6
+ 360 -20 l 6
+ 189.6796875 -20.078125 50 119.6796875 50 290 c 6
+ 50.0234375 750 l 5
 EndSplineSet
 EndChar
 EndChars
