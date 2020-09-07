@@ -51,7 +51,7 @@ for master in designed_masters:
     font["space"].width = int(400 * master[1][1] / 100)
     font.selection.select("\"", " ", "'") # Select characters that I don't want to change
     font.selection.invert()
-    font.autoWidth(int(separation_width * master[1][1] / 100))
+    font.autoWidth(int(separation_width * master[1][1] / 100), minBearing=0, maxBearing=int(separation_width * master[1][1] / 100 / 2), loopCnt=10000)
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
@@ -90,7 +90,7 @@ if True:
     font["space"].width = 200
     font.selection.select("\"", " ", "'") # Select characters that I don't want to change
     font.selection.invert()
-    font.autoWidth(int(separation_width / 2))
+    font.autoWidth(int(separation_width / 2), minBearing=0, maxBearing=int(separation_width / 2 / 2), loopCnt=10000)
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
@@ -129,7 +129,7 @@ for master in all_masters.copy():
         font["space"].width = int(400 * 5 * master[1][1] / 100)
         font.selection.select("\"", " ", "'") # Select characters that I don't want to change
         font.selection.invert()
-        font.autoWidth(int(separation_width * sp * 5 * master[1][1] / 100))
+        font.autoWidth(int(separation_width * sp * 5 * master[1][1] / 100), minBearing=0, maxBearing=int(separation_width * sp * 5 * master[1][1] / 100 / 2), loopCnt=10000)
         # Create auto kerning
         font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
         font.addLookupSubtable("Kerning", "Kerning-1")
