@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1598621781
-ModificationTime: 1599491286
+ModificationTime: 1599501739
 PfmFamily: 17
 TTFWeight: 1
 TTFWidth: 1
@@ -52,11 +52,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 30 14
+WinInfo: 0 30 12
 BeginPrivate: 1
 BlueValues 22 [-2 0 500 502 750 752]
 EndPrivate
-BeginChars: 256 57
+BeginChars: 256 62
 
 StartChar: X
 Encoding: 88 88 0
@@ -1549,7 +1549,7 @@ EndChar
 StartChar: P
 Encoding: 80 80 56
 Width: 324
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1569,6 +1569,111 @@ SplineSet
  249.25 639.314453125 l 6
  249.012695312 686.68359375 210.549804688 726 163.130859375 726 c 6
  75 726 l 5
+EndSplineSet
+EndChar
+
+StartChar: Z
+Encoding: 90 90 57
+Width: 332
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+39.7265625 750 m 5
+ 302.51953125 750 l 5
+ 64.517578125 25 l 5
+ 291.259765625 25 l 5
+ 291.259765625 0 l 5
+ 30 0 l 5
+ 268 725 l 5
+ 39.7265625 725 l 5
+ 39.7265625 750 l 5
+EndSplineSet
+EndChar
+
+StartChar: J
+Encoding: 74 74 58
+Width: 229
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+154.31640625 750 m 1
+ 179.31640625 750 l 1
+ 179.31640625 85.5 l 2
+ 179.31640625 37.359375 140.052734375 -1.96875 91.92578125 -2 c 2
+ 91.81640625 -2 l 2
+ 67.7275390625 -2.015625 45.8525390625 7.8310546875 30 23.68359375 c 1
+ 47.32421875 41.0078125 l 1
+ 58.634765625 29.318359375 74.357421875 21.984375 91.81640625 22 c 2
+ 91.9306640625 22 l 2
+ 126.54296875 22.0302734375 154.31640625 50.8720703125 154.31640625 85.5 c 2
+ 154.31640625 750 l 1
+EndSplineSet
+EndChar
+
+StartChar: K
+Encoding: 75 75 59
+Width: 330
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 750 m 5
+ 75 750 l 5
+ 75 326.640625 l 5
+ 272.4140625 750 l 5
+ 300 750 l 5
+ 125.138671875 375.005859375 l 5
+ 300.005859375 0 l 5
+ 272.421875 0 l 5
+ 111.345703125 345.427734375 l 5
+ 75 267.484375 l 5
+ 75 0 l 5
+ 50 0 l 5
+ 50 750 l 5
+EndSplineSet
+EndChar
+
+StartChar: V
+Encoding: 86 86 60
+Width: 335
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+30 750 m 5
+ 55.34375 750 l 5
+ 167.671875 77.83203125 l 5
+ 280 750 l 5
+ 305.34375 750 l 5
+ 180 0 l 5
+ 155.34375 0 l 5
+ 30 750 l 5
+EndSplineSet
+EndChar
+
+StartChar: W
+Encoding: 87 87 61
+Width: 584
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+30 750 m 5
+ 55.34375 750 l 5
+ 167.671875 77.83203125 l 5
+ 280 750 l 5
+ 304.53515625 750 l 5
+ 416.86328125 77.83203125 l 5
+ 529.19140625 750 l 5
+ 554.53515625 750 l 5
+ 429.19140625 0 l 5
+ 404.53515625 0 l 5
+ 292.267578125 671.7578125 l 5
+ 180 0 l 5
+ 155.34375 0 l 5
+ 30 750 l 5
 EndSplineSet
 EndChar
 EndChars
