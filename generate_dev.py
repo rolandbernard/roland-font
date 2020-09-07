@@ -21,7 +21,7 @@ designed_masters = [
     ["Bold-Expanded", [ 1000, 150 ]],
 ]
 all_masters = []
-separation_width = 75
+separation_width = 100
 separation_kerning = 125
 kern_touch = 1
 

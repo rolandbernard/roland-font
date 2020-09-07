@@ -35,7 +35,7 @@ instances = [
     [["", 20],["Italic", 10],],
 ]
 special_instances = [
-    ["Mono", [400, 100, 0, 1, 0]],
+    ["Mono", [400, 100, 0, 1, slant_angle]],
 ]
 separation_width = 75
 separation_kerning = 100
@@ -185,7 +185,7 @@ for master in all_masters.copy():
                 new_glyph.transform([(target_width - 40) / baseWidth(new_glyph), 0, 0, 1, 0, 0])
                 new_glyph.left_side_bearing = 20
                 new_glyph.right_side_bearing = 20
-            new_glyph.width = int(target_width)
+            new_glyph.width = int(target_width + 20 * (master[1][2] - 100) / 100)
         font.familyname = family_name
         font.fullname = family_name + " Variable"
         font.weight = "Variable"

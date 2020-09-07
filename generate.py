@@ -31,8 +31,8 @@ instances = [
     [["", 20],["Italic", 10],],
 ]
 special_instances = []
-separation_width = 75
-separation_kerning = 100
+separation_width = 100
+separation_kerning = 125
 kern_touch = 1
 
 # Generate UFOs
