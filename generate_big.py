@@ -37,8 +37,8 @@ instances = [
 special_instances = [
     ["Mono", [400, 100, 0, 1, slant_angle]],
 ]
-separation_width = 75
-separation_kerning = 100
+separation_width = 100
+separation_kerning = 125
 kern_touch = 1
 
 # Generate UFOs
@@ -178,9 +178,10 @@ for master in all_masters.copy():
             else:
                 new_glyph = font.createInterpolatedGlyph(glyph, interpolate_with, 0)
             if target_width > new_glyph.width:
-                side_bearing = int((target_width - baseWidth(new_glyph)) / 2)
-                new_glyph.left_side_bearing = side_bearing
-                new_glyph.right_side_bearing = side_bearing
+                q = (new_glyph.left_side_bearing + 20) / (new_glyph.left_side_bearing + new_glyph.right_side_bearing + 40)
+                side_bearing = target_width - baseWidth(new_glyph)
+                new_glyph.left_side_bearing = int(side_bearing * q)
+                new_glyph.right_side_bearing = int(side_bearing * (1 - q))
             elif target_width < new_glyph.width and baseWidth(new_glyph) != 0:
                 new_glyph.transform([(target_width - 40) / baseWidth(new_glyph), 0, 0, 1, 0, 0])
                 new_glyph.left_side_bearing = 20
