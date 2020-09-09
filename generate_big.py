@@ -49,7 +49,8 @@ for master in designed_masters:
     font.weight = "Variable"
     # Create auto width
     font["space"].width = int(400 * master[1][1] / 100)
-    font.selection.select("\"", " ", "'") # Select characters that I don't want to change
+    font["uni00A0"].width = int(400 * master[1][1] / 100)
+    font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
     font.selection.invert()
     font.autoWidth(int(separation_width * master[1][1] / 100), minBearing=0, maxBearing=int(separation_width * master[1][1] / 100 / 2), loopCnt=10000)
     # Create auto kerning
@@ -88,7 +89,8 @@ if True:
     font.os2_weight = 1000
     # Create auto width
     font["space"].width = 200
-    font.selection.select("\"", " ", "'") # Select characters that I don't want to change
+    font["uni00A0"].width = 200
+    font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
     font.selection.invert()
     font.autoWidth(int(separation_width / 2), minBearing=0, maxBearing=int(separation_width / 2 / 2), loopCnt=10000)
     # Create auto kerning
@@ -126,8 +128,9 @@ for master in all_masters.copy():
         font.os2_capheight = 750
         font.os2_weight = master[1][0]
         # Create auto width
-        font["space"].width = int(400 * 5 * master[1][1] / 100)
-        font.selection.select("\"", " ", "'") # Select characters that I don't want to change
+        font["space"].width = int(400 * sp * 5 * master[1][1] / 100)
+        font["uni00A0"].width = int(400 * sp * 5 * master[1][1] / 100)
+        font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
         font.selection.invert()
         font.autoWidth(int(separation_width * sp * 5 * master[1][1] / 100), minBearing=0, maxBearing=int(separation_width * sp * 5 * master[1][1] / 100 / 2), loopCnt=10000)
         # Create auto kerning
@@ -178,7 +181,8 @@ for master in all_masters.copy():
             else:
                 new_glyph = font.createInterpolatedGlyph(glyph, interpolate_with, 0)
             if target_width > new_glyph.width:
-                q = (new_glyph.left_side_bearing + 20) / (new_glyph.left_side_bearing + new_glyph.right_side_bearing + 40)
+                bearing = new_glyph.left_side_bearing + new_glyph.right_side_bearing
+                q = (new_glyph.left_side_bearing + bearing / 2) / (2 * bearing)
                 side_bearing = target_width - baseWidth(new_glyph)
                 new_glyph.left_side_bearing = int(side_bearing * q)
                 new_glyph.right_side_bearing = int(side_bearing * (1 - q))
@@ -291,4 +295,4 @@ document.write("build/roland.designspace")
 # Generate all instances as ttf
 os.system("fontmake --verbose WARNING -m build/roland.designspace -o ttf -i --production-names --output-dir build/instances_ttf")
 # Generate the variable font
-os.system("fontmake --verbose WARNING -m build/roland.designspace -o variable --production-names --output-path build/Roland_Max.ttf")
+os.system("fontmake --verbose WARNING -m build/roland.designspace -o variable --production-names --output-path build/Roland-Variable-Max.ttf")
