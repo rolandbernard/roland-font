@@ -68,6 +68,7 @@ for master in designed_masters:
     # Generate auto hint
     font.selection.all()
     font.autoHint()
+    font.autoInstr()
     # Generate font
     font.generate("build/masters_ufo/" + master[0] + ".ufo")
     all_masters.append(master + [ font ])
@@ -108,6 +109,7 @@ if True:
     # Generate auto hint
     font.selection.all()
     font.autoHint()
+    font.autoInstr()
     # Generate font
     font.generate("build/masters_ufo/Bold-ExtraCondensed.ufo")
     all_masters.append(["Bold-ExtraCondensed", [1000, 50], font])
@@ -148,6 +150,7 @@ for master in all_masters.copy():
         # Generate auto hint
         font.selection.all()
         font.autoHint()
+        font.autoInstr()
         # Generate font
         font.generate("build/masters_ufo/" + master[0] + ("-MinSpacing" if sp == 0 else "-MaxSpacing") + ".ufo")
         all_masters.append([master[0] + ("-MinSpacing" if sp == 0 else "-MaxSpacing"), master[1] + [ sp * 1000 ], font])
@@ -204,6 +207,7 @@ for master in all_masters.copy():
         # Generate auto hint
         font.selection.all()
         font.autoHint()
+        font.autoInstr()
         # Generate font
         font.generate("build/masters_ufo/Mono-" + master[0] + ".ufo")
         all_masters.append(["Mono-" + master[0], master[1] + [ 1 ], font])
@@ -220,6 +224,7 @@ for master in all_masters.copy():
         # Generate auto hint
         font.selection.all()
         font.autoHint()
+        font.autoInstr()
         # Generate font
         font.generate("build/masters_ufo/" + master[0] + "-Italic" + ".ufo")
         all_masters.append([master[0] + "-Italic", master[1] + [ 0 ], font])
@@ -231,6 +236,7 @@ for master in all_masters.copy():
         # Generate auto hint
         font.selection.all()
         font.autoHint()
+        font.autoInstr()
         # Generate font
         font.generate("build/masters_ufo/" + master[0] + "-Slanted" + ".ufo")
         all_masters.append([master[0] + "-Slanted", master[1] + [ 2*slant_angle ], font])

@@ -52,6 +52,7 @@ for master in designed_masters:
     # Generate auto hint
     font.selection.all()
     font.autoHint()
+    font.autoInstr()
     # Generate font
     font.generate("build/masters_ufo/" + master[0] + ".ufo")
     all_masters.append(master + [ font ])
