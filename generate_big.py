@@ -132,7 +132,7 @@ for master in all_masters.copy():
         font["uni00A0"].width = int(400 * sp * 10 * master[1][1] / 100)
         font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
         font.selection.invert()
-        font.autoWidth(int(separation_width * sp * 10 * master[1][1] / 100), minBearing=5, maxBearing=int(separation_width * sp * 10 * master[1][1] / 100 / 2), loopCnt=10000)
+        font.autoWidth(int(separation_width * sp * 10 * master[1][1] / 100), minBearing=5 * sp, maxBearing=int(separation_width * sp * 10 * master[1][1] / 100 / 2), loopCnt=10000)
         # Create auto kerning
         font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
         font.addLookupSubtable("Kerning", "Kerning-1")
@@ -181,9 +181,9 @@ for master in all_masters.copy():
             if target_width > new_glyph.width:
                 bearing = new_glyph.left_side_bearing + new_glyph.right_side_bearing
                 q = (new_glyph.left_side_bearing + bearing / 2) / (2 * bearing)
-                side_bearing = target_width - baseWidth(new_glyph)
-                new_glyph.left_side_bearing = int(side_bearing * q)
-                new_glyph.right_side_bearing = int(side_bearing * (1 - q))
+                side_bearing = target_width - new_glyph.width
+                new_glyph.left_side_bearing = int(new_glyph.left_side_bearing + side_bearing * q)
+                new_glyph.right_side_bearing = int(new_glyph.right_side_bearing + side_bearing * (1 - q))
             elif target_width < new_glyph.width and baseWidth(new_glyph) != 0:
                 new_glyph.transform([(target_width - 40) / baseWidth(new_glyph), 0, 0, 1, 0, 0])
                 new_glyph.left_side_bearing = 20
