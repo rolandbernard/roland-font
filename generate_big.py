@@ -14,7 +14,7 @@ slant_angle = 20
 axises = [
     ["wght", "weight", 0, 1000, 0],
     ["wdth", "width", 50, 150, 100],
-    ["spcg", "spacing", 0, 500, 100],
+    ["spcg", "spacing", 0, 1000, 100],
     ["mono", "monospace", 0, 1, 0],
     ["slnt", "slant", -slant_angle, slant_angle, 0, [(-slant_angle, 0), (0, slant_angle), (slant_angle, 2*slant_angle)]],
 ]
@@ -35,7 +35,7 @@ instances = [
     [["", 20],["Italic", 10],],
 ]
 special_instances = [
-    ["Mono", [400, 100, 0, 1, slant_angle]],
+    ["Mono", [400, 100, 100, 1, slant_angle]],
 ]
 separation_width = 100
 separation_kerning = 125
@@ -52,7 +52,7 @@ for master in designed_masters:
     font["uni00A0"].width = int(400 * master[1][1] / 100)
     font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
     font.selection.invert()
-    font.autoWidth(int(separation_width * master[1][1] / 100), minBearing=0, maxBearing=int(separation_width * master[1][1] / 100 / 2), loopCnt=10000)
+    font.autoWidth(int(separation_width * master[1][1] / 100), minBearing=5, maxBearing=int(separation_width * master[1][1] / 100 / 2), loopCnt=10000)
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
@@ -92,7 +92,7 @@ if True:
     font["uni00A0"].width = 200
     font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
     font.selection.invert()
-    font.autoWidth(int(separation_width / 2), minBearing=0, maxBearing=int(separation_width / 2 / 2), loopCnt=10000)
+    font.autoWidth(int(separation_width / 2), minBearing=5, maxBearing=int(separation_width / 2 / 2), loopCnt=10000)
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
     font.addLookupSubtable("Kerning", "Kerning-1")
@@ -128,11 +128,11 @@ for master in all_masters.copy():
         font.os2_capheight = 750
         font.os2_weight = master[1][0]
         # Create auto width
-        font["space"].width = int(400 * sp * 5 * master[1][1] / 100)
-        font["uni00A0"].width = int(400 * sp * 5 * master[1][1] / 100)
+        font["space"].width = int(400 * sp * 10 * master[1][1] / 100)
+        font["uni00A0"].width = int(400 * sp * 10 * master[1][1] / 100)
         font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
         font.selection.invert()
-        font.autoWidth(int(separation_width * sp * 5 * master[1][1] / 100), minBearing=0, maxBearing=int(separation_width * sp * 5 * master[1][1] / 100 / 2), loopCnt=10000)
+        font.autoWidth(int(separation_width * sp * 10 * master[1][1] / 100), minBearing=5, maxBearing=int(separation_width * sp * 10 * master[1][1] / 100 / 2), loopCnt=10000)
         # Create auto kerning
         font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
         font.addLookupSubtable("Kerning", "Kerning-1")
@@ -144,13 +144,13 @@ for master in all_masters.copy():
             ("ranges", None), "Oslash", "odieresis",
             ("ranges", None), "oslash", "ydieresis",
         ) # Only kern alphanumeric characters
-        font.autoKern("Kerning-1", int(separation_kerning * sp * 5 * master[1][1] / 100), touch=kern_touch, onlyCloser=True)
+        font.autoKern("Kerning-1", int(separation_kerning * sp * 10 * master[1][1] / 100), touch=kern_touch, onlyCloser=True)
         # Generate auto hint
         font.selection.all()
         font.autoHint()
         # Generate font
         font.generate("build/masters_ufo/" + master[0] + ("-MinSpacing" if sp == 0 else "-MaxSpacing") + ".ufo")
-        all_masters.append([master[0] + ("-MinSpacing" if sp == 0 else "-MaxSpacing"), master[1] + [ sp * 500 ], font])
+        all_masters.append([master[0] + ("-MinSpacing" if sp == 0 else "-MaxSpacing"), master[1] + [ sp * 1000 ], font])
     master[1].append(100)
 
 # Generate mono fonts
@@ -162,10 +162,8 @@ for master in all_masters.copy():
         origin_fonts = []
         if master[1][0] == 0:
             origin_fonts = [all_masters[0][2], all_masters[1][2], all_masters[2][2]]
-            target_width += 4
         else:
             origin_fonts = [all_masters[3][2], all_masters[4][2], all_masters[5][2]]
-            target_width += 40
         for glyph in origin_fonts[0].glyphs():
             interpolate_with = None
             new_glyph = None
