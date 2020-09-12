@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1598621781
-ModificationTime: 1599853580
+ModificationTime: 1599939091
 PfmFamily: 17
 TTFWeight: 1
 TTFWidth: 1
@@ -52,11 +52,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 30 14
+WinInfo: 0 30 12
 BeginPrivate: 1
 BlueValues 22 [-2 0 500 502 750 752]
 EndPrivate
-BeginChars: 65536 105
+BeginChars: 65536 114
 
 StartChar: X
 Encoding: 88 88 0
@@ -904,17 +904,17 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-62.5 500 m 1
- 87.5 500 l 1
- 87.5 24.0947265625 l 1
- 87.5 23.986328125 l 1
- 87.5 0 l 1
- 62.5 0 l 1
- 62.5 24.0029296875 l 1
- 62.5 24.095703125 l 1
- 62.5 475.334960938 l 1
- 62.5 475.998046875 l 1
- 62.5 500 l 1
+62.5 500 m 5
+ 87.5 500 l 5
+ 87.5 24.0947265625 l 5
+ 87.5 23.986328125 l 5
+ 87.5 0 l 5
+ 62.5 0 l 5
+ 62.5 24.0029296875 l 5
+ 62.5 24.095703125 l 5
+ 62.5 475.334960938 l 5
+ 62.5 475.998046875 l 5
+ 62.5 500 l 5
 100 625 m 0
  100 638.797851562 88.798828125 650 75 650 c 0
  61.203125 650 50 638.797851562 50 625 c 0
@@ -2696,6 +2696,117 @@ SplineSet
  48.8671875 600 l 1
  124.3359375 750 l 1
 EndSplineSet
+EndChar
+
+StartChar: dieresis
+Encoding: 168 168 105
+Width: 220
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+55 600 m 4
+ 41.193359375 600 30 611.193359375 30 625 c 4
+ 30 638.806640625 41.193359375 650 55 650 c 4
+ 68.806640625 650 80 638.806640625 80 625 c 4
+ 80 611.193359375 68.806640625 600 55 600 c 4
+165 600 m 4
+ 151.193359375 600 140 611.193359375 140 625 c 4
+ 140 638.806640625 151.193359375 650 165 650 c 4
+ 178.806640625 650 190 638.806640625 190 625 c 4
+ 190 611.193359375 178.806640625 600 165 600 c 4
+EndSplineSet
+EndChar
+
+StartChar: adieresis
+Encoding: 228 228 106
+Width: 352
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 65 0 2
+Refer: 20 97 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: edieresis
+Encoding: 235 235 107
+Width: 342
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 63 0 2
+Refer: 3 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: dotlessi
+Encoding: 305 305 108
+Width: 150
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+62.5 500 m 5
+ 87.5 500 l 5
+ 87.5 24.0947265625 l 5
+ 87.5 23.986328125 l 5
+ 87.5 0 l 5
+ 62.5 0 l 5
+ 62.5 24.0029296875 l 5
+ 62.5 24.095703125 l 5
+ 62.5 475.334960938 l 5
+ 62.5 475.998046875 l 5
+ 62.5 500 l 5
+EndSplineSet
+EndChar
+
+StartChar: idieresis
+Encoding: 239 239 109
+Width: 150
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 -36 0 2
+Refer: 108 305 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: odieresis
+Encoding: 246 246 110
+Width: 352
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 66 0 2
+Refer: 18 111 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: udieresis
+Encoding: 252 252 111
+Width: 352
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 67 0 2
+Refer: 38 117 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ydieresis
+Encoding: 255 255 112
+Width: 342
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 65 0 2
+Refer: 42 121 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Adieresis
+Encoding: 196 196 113
+Width: 335
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 57.5 200 2
+Refer: 49 65 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
