@@ -44,7 +44,18 @@ for master in designed_masters:
     # Create auto width
     font["space"].width = int(400 * master[1][1] / 100)
     font["uni00A0"].width = int(400 * master[1][1] / 100)
-    font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
+    font.selection.select(
+        "\"", "'", " ", "uni00A0", "dieresis", "acute", "grave",
+        ("ranges", None), "Agrave", "Aring",
+        ("ranges", None), "Egrave", "Idieresis",
+        ("ranges", None), "Ntilde", "Odieresis",
+        ("ranges", None), "Ugrave", "Yacute",
+        ("ranges", None), "agrave", "aring",
+        ("ranges", None), "egrave", "idieresis",
+        ("ranges", None), "ntilde", "odieresis",
+        ("ranges", None), "ugrave", "yacute",
+        ("ranges", None), "ydieresis", "abreve",
+    ) # Select characters that I don't want to change
     font.selection.invert()
     font.autoWidth(int(separation_width * master[1][1] / 100), minBearing=5, maxBearing=int(separation_width * master[1][1] / 100 / 2), loopCnt=10000)
     # Create auto kerning
@@ -85,9 +96,19 @@ if True:
     # Create auto width
     font["space"].width = 200
     font["uni00A0"].width = 200
-    font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
+    font.selection.select(
+        "\"", "'", " ", "uni00A0", "dieresis", "acute", "grave",
+        ("ranges", None), "Agrave", "Aring",
+        ("ranges", None), "Egrave", "Idieresis",
+        ("ranges", None), "Ntilde", "Odieresis",
+        ("ranges", None), "Ugrave", "Yacute",
+        ("ranges", None), "agrave", "aring",
+        ("ranges", None), "egrave", "idieresis",
+        ("ranges", None), "ntilde", "odieresis",
+        ("ranges", None), "ugrave", "yacute",
+        ("ranges", None), "ydieresis", "abreve",
+    ) # Select characters that I don't want to change
     font.selection.invert()
-    font.autoWidth(separation_width)
     font.autoWidth(int(separation_width / 2), minBearing=5, maxBearing=int(separation_width / 2 / 2), loopCnt=10000)
     # Create auto kerning
     font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
