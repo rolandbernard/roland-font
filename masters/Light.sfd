@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1598555393
-ModificationTime: 1599940771
+ModificationTime: 1600025424
 PfmFamily: 17
 TTFWeight: 1
 TTFWidth: 5
@@ -52,12 +52,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 60 30 14
+WinInfo: 30 30 12
 BeginPrivate: 1
 BlueValues 22 [-2 0 500 502 750 752]
 EndPrivate
 TeXData: 1 0 0 419430 209715 139810 0 1048576 139810 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 114
+BeginChars: 65536 117
 
 StartChar: X
 Encoding: 88 88 0
@@ -1341,19 +1341,19 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-50 750 m 5
- 500 750 l 5
- 500 725 l 5
- 75 725 l 5
- 75 387.5 l 5
- 500 387.5 l 5
- 500 362.5 l 5
- 75 362.5 l 5
- 75 25 l 5
- 500 25 l 5
- 500 0 l 5
- 50 0 l 5
- 50 750 l 5
+50 750 m 1
+ 500 750 l 1
+ 500 725 l 1
+ 75 725 l 1
+ 75 387.5 l 1
+ 500 387.5 l 1
+ 500 362.5 l 1
+ 75 362.5 l 1
+ 75 25 l 1
+ 500 25 l 1
+ 500 0 l 1
+ 50 0 l 1
+ 50 750 l 1
 EndSplineSet
 EndChar
 
@@ -2804,11 +2804,41 @@ EndChar
 StartChar: Adieresis
 Encoding: 196 196 113
 Width: 586
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 105 168 N 1 0 0 1 153 200 2
 Refer: 49 65 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Edieresis
+Encoding: 203 203 114
+Width: 530
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 133 200 2
+Refer: 47 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Odieresis
+Encoding: 214 214 115
+Width: 814
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 267 200 2
+Refer: 44 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Udieresis
+Encoding: 220 220 116
+Width: 700
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 105 168 N 1 0 0 1 210 200 2
+Refer: 64 85 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
