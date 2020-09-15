@@ -128,6 +128,22 @@ for master in designed_masters:
     font.generate("build/masters_ufo/" + master[0] + ".ufo")
     all_masters.append(master + [ font ])
 
+# Generate regular masters
+if "regular" in options or "all" in options:
+    axises[0][4] = 400
+    light_fonts = [all_masters[0], all_masters[1], all_masters[2]]
+    bold_fonts = [all_masters[3], all_masters[4], all_masters[5]]
+    for w in range(0, 3):
+        font = fontforge.font()
+        setFontDesc(font, 400)
+        for glyph in light_fonts[w][2].glyphs():
+            font.createInterpolatedGlyph(glyph, bold_fonts[w][2][glyph.glyphname], 0.4)
+        font = reloadFont(font)
+        generateWidths(font, 0.5)
+        # Generate font
+        font.generate("build/masters_ufo/" + light_fonts[w][0].replace("Light", "Regular") + ".ufo")
+        all_masters.append([light_fonts[w][0].replace("Light", "Regular") , [400, light_fonts[w][1][1]], font])
+
 # Generate the real bold condensed
 if "bold-condensed" in options or "all" in options:
     bold = all_masters[3][2]
