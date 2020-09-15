@@ -198,7 +198,7 @@ if "monospace" in options or "all" in options:
         font = fontforge.font()
         setFontDesc(font, getAxisValue(master[1], "weight", 0))
         # Find the parameters
-        target_width = 500 * getAxisValue(master[1], "width", 100) / 100
+        target_width = 500 * getAxisValue(master[1], "width", 100) / 100 + (separation_width * (getAxisValue(master[1], "spacing", 100) - 100) / 100)
         origin_fonts = []
         if getAxisValue(master[1], "weight", 0) == 0:
             origin_fonts = [all_masters[0][2], all_masters[1][2], all_masters[2][2]]
@@ -207,30 +207,39 @@ if "monospace" in options or "all" in options:
         else:
             origin_fonts = [all_masters[6][2], all_masters[7][2], all_masters[8][2]]
         for glyph in origin_fonts[0].glyphs():
+            separation_mono = (glyph.left_side_bearing + glyph.right_side_bearing)
+            separation_mono *= getAxisValue(master[1], "width", 100) / 100
+            if getAxisValue(master[1], "spacing", 100) < 100:
+                separation_mono *= getAxisValue(master[1], "spacing", 100) / 100
+            else:
+                separation_mono += (separation_width * (getAxisValue(master[1], "spacing", 100) - 100) / 100)
+            target_base_width = target_width - separation_mono
+            if master[1] == [0, 150, 0, 1]:
+                print(target_base_width, target_width)
             interpolate_with = None
             new_glyph = None
-            if glyph.width > target_width:
+            if baseWidth(glyph) > target_base_width:
                 interpolate_with = origin_fonts[1][glyph.glyphname]
             else:
                 interpolate_with = origin_fonts[2][glyph.glyphname]
-            if abs(interpolate_with.width - glyph.width) > 1:
-                q = (target_width - glyph.width) / (interpolate_with.width - glyph.width)
-                if glyph.width < target_width and q > 1.1:
+            if abs(baseWidth(interpolate_with) - baseWidth(glyph)) > 1:
+                q = (target_base_width - baseWidth(glyph)) / (baseWidth(interpolate_with) - baseWidth(glyph))
+                if baseWidth(glyph) < target_base_width and q > 1.1:
                     q = 1.1
                 new_glyph = font.createInterpolatedGlyph(glyph, interpolate_with, q)
             else:
                 new_glyph = font.createInterpolatedGlyph(glyph, interpolate_with, 0)
-            if target_width > new_glyph.width:
+            if target_base_width < baseWidth(new_glyph) and baseWidth(new_glyph) != 0:
+                new_glyph.transform([target_base_width / baseWidth(new_glyph), 0, 0, 1, 0, 0])
+                new_glyph.left_side_bearing = int(separation_mono / 2)
+                new_glyph.right_side_bearing = int(separation_mono / 2)
+            elif target_width != new_glyph.width:
                 bearing = new_glyph.left_side_bearing + new_glyph.right_side_bearing
-                q = (new_glyph.left_side_bearing + bearing / 2) / (2 * bearing)
-                side_bearing = target_width - new_glyph.width
-                new_glyph.left_side_bearing = int(new_glyph.left_side_bearing + side_bearing * q)
-                new_glyph.right_side_bearing = int(new_glyph.right_side_bearing + side_bearing * (1 - q))
-            elif target_width < new_glyph.width and baseWidth(new_glyph) != 0:
-                new_glyph.transform([(target_width - 40) / baseWidth(new_glyph), 0, 0, 1, 0, 0])
-                new_glyph.left_side_bearing = 20
-                new_glyph.right_side_bearing = 20
-            new_glyph.width = int(target_width + 20 * (getAxisValue(master[1], "spacing", 100) - 100) / 100)
+                q = new_glyph.left_side_bearing / bearing
+                side_bearing = target_width - baseWidth(new_glyph) - separation_mono
+                new_glyph.left_side_bearing = int(separation_mono * q + side_bearing / 2)
+                new_glyph.right_side_bearing = int(separation_mono * (1 - q) + side_bearing / 2)
+            new_glyph.width = int(target_width)
         font = reloadFont(font)
         # We need a kerning lookup, to interpolate with
         font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
