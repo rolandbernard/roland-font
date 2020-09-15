@@ -1,6 +1,7 @@
 
 I was wondering how one would go about creating a font. I did a bit of research
-and created this font as my first font using Inkscape and FontForge.
+and created this font as my first font using Inkscape, FontForge, Python,
+FontTools and Fontmake.
 
-![The quick brown fox jumps over the lazy dog](images/The_quick_brown_fox_jumps_over_the_lazy_dog.png)
+![Variable font animation](images/variable_font.gif)
 
