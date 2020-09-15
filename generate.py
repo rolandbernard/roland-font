@@ -10,8 +10,8 @@ os.makedirs("/tmp/font-generation/", exist_ok=True)
 
 family_name = "Roland"
 slant_angle = 20
-separation_width = 100
-separation_kerning = 125
+separation_width = 125
+separation_kerning = 150
 kern_touch = 1
 
 axises = [
@@ -139,13 +139,14 @@ if "regular" in options or "all" in options:
         for glyph in light_fonts[w][2].glyphs():
             font.createInterpolatedGlyph(glyph, bold_fonts[w][2][glyph.glyphname], 0.4)
         font = reloadFont(font)
-        generateWidths(font, 0.5)
+        generateWidths(font, getAxisValue(light_fonts[w][1], "width", 100) / 100)
         # Generate font
         font.generate("build/masters_ufo/" + light_fonts[w][0].replace("Light", "Regular") + ".ufo")
-        all_masters.append([light_fonts[w][0].replace("Light", "Regular") , [400, light_fonts[w][1][1]], font])
+        all_masters.append([light_fonts[w][0].replace("Light", "Regular") , [400, light_fonts[w][1][1] * 0.4 + bold_fonts[w][1][1] * 0.6], font])
 
 # Generate the real bold condensed
-if "bold-condensed" in options or "all" in options:
+if "condensed" in options or "all" in options:
+    # Bold
     bold = all_masters[3][2]
     bold_condensed = all_masters[4][2]
     font = fontforge.font()
@@ -157,6 +158,19 @@ if "bold-condensed" in options or "all" in options:
     # Generate font
     font.generate("build/masters_ufo/Bold-ExtraCondensed.ufo")
     all_masters.append(["Bold-ExtraCondensed", [1000, 50], font])
+    # Regular
+    if "regular" in options or "all" in options:
+        regular = all_masters[6][2]
+        regular_condensed = all_masters[7][2]
+        font = fontforge.font()
+        setFontDesc(font, 400)
+        for glyph in regular.glyphs():
+            font.createInterpolatedGlyph(glyph, regular_condensed[glyph.glyphname], 50 / 35)
+        font = reloadFont(font)
+        generateWidths(font, 0.5)
+        # Generate font
+        font.generate("build/masters_ufo/Regular-ExtraCondensed.ufo")
+        all_masters.append(["Regular-ExtraCondensed", [400, 50], font])
 
 # Generate min and max Spacing fonts
 if "spacing" in options or "all" in options:
@@ -188,8 +202,10 @@ if "monospace" in options or "all" in options:
         origin_fonts = []
         if getAxisValue(master[1], "weight", 0) == 0:
             origin_fonts = [all_masters[0][2], all_masters[1][2], all_masters[2][2]]
-        else:
+        elif getAxisValue(master[1], "weight", 0) == 1000:
             origin_fonts = [all_masters[3][2], all_masters[4][2], all_masters[5][2]]
+        else:
+            origin_fonts = [all_masters[6][2], all_masters[7][2], all_masters[8][2]]
         for glyph in origin_fonts[0].glyphs():
             interpolate_with = None
             new_glyph = None
@@ -231,7 +247,7 @@ if "monospace" in options or "all" in options:
 
 # Generate slanted fonts
 if "slant" in options or "all" in options:
-    axises.append(["slnt", "slant", -slant_angle, slant_angle, 0, [(-slant_angle, 0), (0, slant_angle), (slant_angle, 2*slant_angle)]])
+    axises.append(["slnt", "slant", -slant_angle, slant_angle, slant_angle, [(-slant_angle, 0), (0, slant_angle), (slant_angle, 2*slant_angle)]])
     instances.append([["", 20],["Italic", 10],])
     for master in all_masters.copy():
         font = master[2]
