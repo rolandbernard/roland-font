@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1598631002
-ModificationTime: 1600112849
+ModificationTime: 1600183429
 PfmFamily: 17
 TTFWeight: 1000
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 30 12
+WinInfo: 38 38 15
 BeginPrivate: 1
 BlueValues 23 [-20 0 500 520 750 770]
 EndPrivate
@@ -1107,23 +1107,23 @@ EndChar
 StartChar: t
 Encoding: 116 116 37
 Width: 510
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
-180 750 m 5
- 330 750 l 5
- 330 500 l 5
- 480 500 l 5
- 480 360 l 5
- 330 360 l 5
- 330 0 l 5
- 180 0 l 5
- 180 360 l 5
- 30 360 l 5
- 30 500 l 5
- 180 500 l 5
- 180 750 l 5
+180 750 m 1
+ 330 750 l 1
+ 330 500 l 1
+ 481 500 l 1
+ 481 360 l 1
+ 330 360 l 1
+ 330 0 l 1
+ 180 0 l 1
+ 180 360 l 1
+ 30 360 l 1
+ 30 500 l 1
+ 180 500 l 1
+ 180 750 l 1
 EndSplineSet
 EndChar
 
@@ -3441,7 +3441,7 @@ EndChar
 StartChar: thorn
 Encoding: 254 254 152
 Width: 860
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
