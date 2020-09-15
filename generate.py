@@ -247,7 +247,7 @@ if "monospace" in options or "all" in options:
 
 # Generate slanted fonts
 if "slant" in options or "all" in options:
-    axises.append(["slnt", "slant", -slant_angle, slant_angle, slant_angle, [(-slant_angle, 0), (0, slant_angle), (slant_angle, 2*slant_angle)]])
+    axises.append(["slnt", "slant", -slant_angle, slant_angle, 0, [(-slant_angle, 0), (0, slant_angle), (slant_angle, 2*slant_angle)]])
     instances.append([["", 20],["Italic", 10],])
     for master in all_masters.copy():
         font = master[2]
@@ -277,7 +277,7 @@ if "slant" in options or "all" in options:
         master[1].append(slant_angle)
 
 if "monospace" in options or "all" in options:
-    special_instances.append(["Mono", toPos({"weight": 400, "monospace": 1})])
+    special_instances.append(["Mono", toPos({"weight": 400, "monospace": 1, "slant": 20})])
 
 os.system("rm -rf /tmp/font-generation")
 
