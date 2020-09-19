@@ -317,7 +317,7 @@ if "instances" in options or "all" in options:
 
 document.write("build/roland.designspace")
 
-if "instances" in options or "all" in options:
+if "instances" in options:
     # Generate all instances
     os.system("fontmake --verbose WARNING -m build/roland.designspace -o ttf -i --production-names --output-dir build/instances_ttf")
 
