@@ -47,18 +47,7 @@ def generateWidths(font, spacing_mult):
     # Create auto width
     font["space"].width = int(400 * spacing_mult)
     font["uni00A0"].width = int(400 * spacing_mult)
-    font.selection.select(
-        "\"", "'", " ", "uni00A0", "dieresis", "acute", "grave",
-        ("ranges", None), "Agrave", "Aring",
-        ("ranges", None), "Egrave", "Idieresis",
-        ("ranges", None), "Ntilde", "Odieresis",
-        ("ranges", None), "Ugrave", "Yacute",
-        ("ranges", None), "agrave", "aring",
-        ("ranges", None), "egrave", "idieresis",
-        ("ranges", None), "ntilde", "odieresis",
-        ("ranges", None), "ugrave", "yacute",
-        ("ranges", None), "ydieresis", "abreve",
-    ) # Select characters that I don't want to change
+    font.selection.select("\"", "'", " ", "uni00A0") # Select characters that I don't want to change
     font.selection.invert()
     font.autoWidth(int(separation_width * spacing_mult), minBearing=int(5 * spacing_mult), maxBearing=int(separation_width * spacing_mult / 2), loopCnt=10000)
     # Create auto kerning
@@ -109,20 +98,12 @@ def toPos(dict):
             pos.append(axises[i][4])
     return pos
 
-index_for_tmp = 0
-def reloadFont(font):
-    global index_for_tmp
-    # Strange workaround to avoid getting a segmentation fault
-    font.save("/tmp/font-generation/tmp-" + str(index_for_tmp) + ".sfd")
-    font.close()
-    font = fontforge.open("/tmp/font-generation/tmp-" + str(index_for_tmp) + ".sfd")
-    index_for_tmp += 1
-    return font
-
 # Generate minimum masters
 for master in designed_masters:
     font = fontforge.open("masters/" + master[0] + ".sfd")
     setFontDesc(font, getAxisValue(master[1], "weight", 0))
+    font.selection.all()
+    font.unlinkReferences()
     generateWidths(font, getAxisValue(master[1], "width", 100) / 100)
     # Generate font
     font.generate("build/masters_ufo/" + master[0] + ".ufo")
@@ -138,7 +119,6 @@ if "regular" in options or "all" in options:
         setFontDesc(font, 400)
         for glyph in light_fonts[w][2].glyphs():
             font.createInterpolatedGlyph(glyph, bold_fonts[w][2][glyph.glyphname], 0.4)
-        font = reloadFont(font)
         generateWidths(font, getAxisValue(light_fonts[w][1], "width", 100) / 100)
         # Generate font
         font.generate("build/masters_ufo/" + light_fonts[w][0].replace("Light", "Regular") + ".ufo")
@@ -153,7 +133,6 @@ if "condensed" in options or "all" in options:
     setFontDesc(font, 1000)
     for glyph in bold.glyphs():
         font.createInterpolatedGlyph(glyph, bold_condensed[glyph.glyphname], 2)
-    font = reloadFont(font)
     generateWidths(font, 0.5)
     # Generate font
     font.generate("build/masters_ufo/Bold-ExtraCondensed.ufo")
@@ -166,7 +145,6 @@ if "condensed" in options or "all" in options:
         setFontDesc(font, 400)
         for glyph in regular.glyphs():
             font.createInterpolatedGlyph(glyph, regular_condensed[glyph.glyphname], 50 / 35)
-        font = reloadFont(font)
         generateWidths(font, 0.5)
         # Generate font
         font.generate("build/masters_ufo/Regular-ExtraCondensed.ufo")
@@ -183,7 +161,6 @@ if "spacing" in options or "all" in options:
             # Find the parameters
             for glyph in master[2].glyphs():
                 font.createInterpolatedGlyph(glyph, glyph, 0)
-            font = reloadFont(font)
             generateWidths(font, sp * 10 *  getAxisValue(master[1], "width", 100) / 100)
             # Generate font
             font.generate("build/masters_ufo/" + master[0] + ("-MinSpacing" if sp == 0 else "-MaxSpacing") + ".ufo")
@@ -214,8 +191,6 @@ if "monospace" in options or "all" in options:
             else:
                 separation_mono += (separation_width * (getAxisValue(master[1], "spacing", 100) - 100) / 100)
             target_base_width = target_width - separation_mono
-            if master[1] == [0, 150, 0, 1]:
-                print(target_base_width, target_width)
             interpolate_with = None
             new_glyph = None
             if baseWidth(glyph) > target_base_width:
@@ -240,7 +215,6 @@ if "monospace" in options or "all" in options:
                 new_glyph.left_side_bearing = int(separation_mono * q + side_bearing / 2)
                 new_glyph.right_side_bearing = int(separation_mono * (1 - q) + side_bearing / 2)
             new_glyph.width = int(target_width)
-        font = reloadFont(font)
         # We need a kerning lookup, to interpolate with
         font.addLookup("Kerning", "gpos_pair", None, (("kern",(("DFLT",("dflt")), ("latn",("dflt")),)),))
         font.addLookupSubtable("Kerning", "Kerning-1")
