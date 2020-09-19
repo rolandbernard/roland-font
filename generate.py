@@ -286,34 +286,33 @@ for master in all_masters:
         s.location[axises[i][1]] = master[1][i]
     document.addSource(s)
 
-if "instances" in options or "all" in options:          
-    instances_resolved = []
-    for ax in instances:
-        if len(instances_resolved) != 0:
-            old_instances_resolved = instances_resolved
-            instances_resolved = []
-            for value in ax:
-                for el in old_instances_resolved:
-                    instances_resolved.append([el[0].strip() + " " + value[0], el[1] + [value[1]]])
-        else:
-            for value in ax:
-                instances_resolved.append([value[0], [value[1]]])
-    instances_resolved += special_instances
-    for instance in instances_resolved:
-        instance[0] = instance[0].strip()
-        if len(instance[0]) == 0:
-            instance[0] = "Regular"
-    for instance in instances_resolved:
-        i = designspace.InstanceDescriptor()
-        i.familyName = family_name
-        i.styleName = instance[0]
-        i.path = "build/instances_ufo/" + instance[0].replace(" ", "-") + ".ufo"
-        i.location = dict()
-        for j in range(0, len(axises)):
-            i.location[axises[j][1]] = instance[1][j]
-        i.kerning = True
-        i.info = True
-        document.addInstance(i)
+instances_resolved = []
+for ax in instances:
+    if len(instances_resolved) != 0:
+        old_instances_resolved = instances_resolved
+        instances_resolved = []
+        for value in ax:
+            for el in old_instances_resolved:
+                instances_resolved.append([el[0].strip() + " " + value[0], el[1] + [value[1]]])
+    else:
+        for value in ax:
+            instances_resolved.append([value[0], [value[1]]])
+instances_resolved += special_instances
+for instance in instances_resolved:
+    instance[0] = instance[0].strip()
+    if len(instance[0]) == 0:
+        instance[0] = "Regular"
+for instance in instances_resolved:
+    i = designspace.InstanceDescriptor()
+    i.familyName = family_name
+    i.styleName = instance[0]
+    i.path = "build/instances_ufo/" + instance[0].replace(" ", "-") + ".ufo"
+    i.location = dict()
+    for j in range(0, len(axises)):
+        i.location[axises[j][1]] = instance[1][j]
+    i.kerning = True
+    i.info = True
+    document.addInstance(i)
 
 document.write("build/roland.designspace")
 
